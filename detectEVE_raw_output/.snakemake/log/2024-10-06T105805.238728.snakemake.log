@@ -1,0 +1,192 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             11
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 10:58:05 2024]
+localrule search_assemblies:
+    input: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    jobid: 4
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed; Updated input files: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:01:24 2024]
+Finished job 4.
+1 of 11 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:01:24 2024]
+localrule extract_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed, genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:01:25 2024]
+Finished job 3.
+2 of 11 steps (18%) done
+Removing temporary output genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:01:25 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed
+    jobid: 6
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:01:26 2024]
+Finished job 6.
+3 of 11 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:01:26 2024]
+localrule mask_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    jobid: 2
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:01:26 2024]
+Finished job 2.
+4 of 11 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:01:26 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    jobid: 11
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:01:45 2024]
+Finished job 11.
+5 of 11 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:01:45 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6
+    jobid: 10
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:48:47 2024]
+Finished job 10.
+6 of 11 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:48:48 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:48:50 2024]
+Finished job 9.
+7 of 11 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:48:50 2024]
+localrule taxize_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    jobid: 8
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:48:55 2024]
+Finished job 8.
+8 of 11 steps (73%) done
+Removing temporary output results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:48:55 2024]
+localrule validate_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.pdf
+    jobid: 7
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:49:15 2024]
+Finished job 7.
+9 of 11 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:49:15 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:49:15 2024]
+Finished job 1.
+10 of 11 steps (91%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 11:49:15 2024]
+localrule all:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.pdf, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.pdf
+    resources: tmpdir=/tmp
+
+[Sun Oct  6 11:49:15 2024]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: .snakemake/log/2024-10-06T105805.238728.snakemake.log

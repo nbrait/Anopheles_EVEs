@@ -1,0 +1,194 @@
+SIXB01_EVE006/7	Anopheles
+MinFlavi1	Anopheles
+LULA01_EVE073	Anopheles
+GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic_EVE027	Anopheles
+GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic_EVE001	Anopheles
+GCF_943734705.1_idAnoCousDA_361_x.2_genomic_EVE028	Anopheles
+GCF_943734705.1_idAnoCousDA_361_x.2_genomic_EVE010	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE029	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE027	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE020	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE019	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE017	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE008	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE003	Anopheles
+CALSEF01_EVE025	Anopheles
+CALSEF01_EVE011	Anopheles
+CALSDW01_EVE017	Anopheles
+CALSDW01_EVE007	Anopheles
+CALSDW01_EVE006	Anopheles
+AXCL01_EVE005	Anopheles
+AXCK02_EVE010	Anopheles
+ATLV01_EVE010	Anopheles
+APHL01_EVE013	Anopheles
+AlbFlavi42	Aedes albopictus
+AlbFlavi41	Aedes albopictus
+AlbFlavi40	Aedes albopictus
+AlbFlavi39	Aedes albopictus
+AlbFlavi38	Aedes albopictus
+AlbFlavi37	Aedes albopictus
+AlbFlavi36	Aedes albopictus
+AlbFlavi34	Aedes albopictus
+AlbFlavi33	Aedes albopictus
+AlbFlavi32	Aedes albopictus
+AlbFlavi31	Aedes albopictus
+AlbFlavi28	Aedes albopictus
+AlbFlavi27	Aedes albopictus
+AlbFlavi26	Aedes albopictus
+AlbFlavi25	Aedes albopictus
+AlbFlavi24	Aedes albopictus
+AlbFlavi23	Aedes albopictus
+AlbFlavi22	Aedes albopictus
+AlbFlavi20	Aedes albopictus
+AlbFlavi19	Aedes albopictus
+AlbFlavi18	Aedes albopictus
+AlbFlavi12_17	Aedes albopictus
+AlbFlavi10	Aedes albopictus
+AlbFlavi8	Aedes albopictus
+AlbFlavi7	Aedes albopictus
+AlbFlavi6	Aedes albopictus
+AlbFlavi4	Aedes albopictus
+AlbFlavi3	Aedes albopictus
+AlbFlavi2	Aedes albopictus
+AlbFlavi1	Aedes albopictus
+AeFlavi115	Aedes aegypti
+AeFlavi113	Aedes aegypti
+AeFlavi111	Aedes aegypti
+AeFlavi109	Aedes aegypti
+AeFlavi95	Aedes aegypti
+AeFlavi94	Aedes aegypti
+AeFlavi92	Aedes aegypti
+AeFlavi91	Aedes aegypti
+AeFlavi88	Aedes aegypti
+AeFlavi86	Aedes aegypti
+AeFlavi83	Aedes aegypti
+AeFlavi81	Aedes aegypti
+AeFlavi80	Aedes aegypti
+AeFlavi77	Aedes aegypti
+AeFlavi73	Aedes aegypti
+AeFlavi66	Aedes aegypti
+AeFlavi62	Aedes aegypti
+AeFlavi60	Aedes aegypti
+AeFlavi59	Aedes aegypti
+AeFlavi57	Aedes aegypti
+AeFlavi56	Aedes aegypti
+AeFlavi53	Aedes aegypti
+AeFlavi50	Aedes aegypti
+AeFlavi45	Aedes aegypti
+AeFlavi44	Aedes aegypti
+AeFlavi42	Aedes aegypti
+AeFlavi41	Aedes aegypti
+AeFlavi34	Aedes aegypti
+AeFlavi32	Aedes aegypti
+AeFlavi31	Aedes aegypti
+AeFlavi10	Aedes aegypti
+AeFlavi4	Aedes aegypti
+AE29.4	Aedes aegypti
+AE28.4	Aedes aegypti
+AE27.4	Aedes aegypti
+AE26.4	Aedes aegypti
+AE24.3	Aedes aegypti
+AE23.3	Aedes aegypti
+AE22.3	Aedes aegypti
+AE20.3	Aedes aegypti
+AE19.3	Aedes aegypti
+AE18.3	Aedes aegypti
+AE17.2	Aedes aegypti
+AE16.2	Aedes aegypti
+AE15.2	Aedes aegypti
+AE14.2	Aedes aegypti
+AE13.2	Aedes aegypti
+AE12.2	Aedes aegypti
+AE11.2	Aedes aegypti
+AE10.2	Aedes aegypti
+AE9.2	Aedes aegypti
+AE8.2	Aedes aegypti
+AE7.2	Aedes aegypti
+AE5.2	Aedes aegypti
+AE4.2	Aedes aegypti
+AE3.2	Aedes aegypti
+AE2.2	Aedes aegypti
+AE1.1	Aedes aegypti
+AaloF_29	Aedes albopictus
+AaloF_28	Aedes albopictus
+AaloF_27	Aedes albopictus
+AaloF_26	Aedes albopictus
+AaloF_25	Aedes albopictus
+AaloF_24	Aedes albopictus
+AaloF_23	Aedes albopictus
+AaloF_22	Aedes albopictus
+AaloF_21	Aedes albopictus
+AaloF_20	Aedes albopictus
+AaloF_19	Aedes albopictus
+AaloF_18	Aedes albopictus
+AaloF_17	Aedes albopictus
+AaloF_16	Aedes albopictus
+AaloF_15	Aedes albopictus
+AaloF_14	Aedes albopictus
+AaloF_13	Aedes albopictus
+AaloF_12	Aedes albopictus
+AaloF_11	Aedes albopictus
+AaloF_10	Aedes albopictus
+AaloF_9	Aedes albopictus
+AaloF_8	Aedes albopictus
+AaloF_7	Aedes albopictus
+AaloF_6	Aedes albopictus
+AaloF_5	Aedes albopictus
+AaloF_4	Aedes albopictus
+AaloF_3	Aedes albopictus
+AaloF_2	Aedes albopictus
+AaloF_1	Aedes albopictus
+AA55	Aedes albopictus
+AA54	Aedes albopictus
+AA53	Aedes albopictus
+AA52	Aedes albopictus
+AA51	Aedes albopictus
+AA50	Aedes albopictus
+AA49	Aedes albopictus
+AA48	Aedes albopictus
+AA47	Aedes albopictus
+AA46	Aedes albopictus
+AA45	Aedes albopictus
+AA44	Aedes albopictus
+AA42	Aedes albopictus
+AA41	Aedes albopictus
+AA40	Aedes albopictus
+AA39	Aedes albopictus
+AA38	Aedes albopictus
+AA37	Aedes albopictus
+AA36	Aedes albopictus
+AA35	Aedes albopictus
+AA34	Aedes albopictus
+AA33	Aedes albopictus
+AA32	Aedes albopictus
+AA31	Aedes albopictus
+AA30	Aedes albopictus
+AA29	Aedes albopictus
+AA28	Aedes albopictus
+AA27	Aedes albopictus
+AA26	Aedes albopictus
+AA25	Aedes albopictus
+AA24	Aedes albopictus
+AA23	Aedes albopictus
+AA22	Aedes albopictus
+AA21	Aedes albopictus
+AA20	Aedes albopictus
+AA19	Aedes albopictus
+AA18	Aedes albopictus
+AA17	Aedes albopictus
+AA16	Aedes albopictus
+AA15	Aedes albopictus
+AA14	Aedes albopictus
+AA13	Aedes albopictus
+AA12	Aedes albopictus
+AA11	Aedes albopictus
+AA10	Aedes albopictus
+AA9	Aedes albopictus
+AA8	Aedes albopictus
+AA7	Aedes albopictus
+AA6	Aedes albopictus
+AA5	Aedes albopictus
+AA4	Aedes albopictus
+AA3	Aedes albopictus
+AA2	Aedes albopictus
+AA1	Aedes albopictus

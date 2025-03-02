@@ -1,0 +1,209 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+all                        1
+extract_validatEVEs       14
+total                     15
+
+Select jobs to execute...
+Execute 14 jobs...
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    jobid: 12
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    jobid: 34
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    jobid: 67
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    jobid: 78
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    jobid: 100
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    jobid: 122
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    jobid: 144
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    jobid: 23
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    jobid: 89
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    jobid: 133
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 23:12:46 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    jobid: 111
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 23:12:46 2024]
+Finished job 56.
+1 of 15 steps (7%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 67.
+2 of 15 steps (13%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 12.
+3 of 15 steps (20%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 34.
+4 of 15 steps (27%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 122.
+5 of 15 steps (33%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 100.
+6 of 15 steps (40%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 78.
+7 of 15 steps (47%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 23.
+8 of 15 steps (53%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 144.
+9 of 15 steps (60%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 1.
+10 of 15 steps (67%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 45.
+11 of 15 steps (73%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 133.
+12 of 15 steps (80%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 111.
+13 of 15 steps (87%) done
+[Mon Sep 23 23:12:46 2024]
+Finished job 89.
+14 of 15 steps (93%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 23:12:46 2024]
+localrule all:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.pdf, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.pdf, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.pdf, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.pdf, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.pdf, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.pdf, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.pdf, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.pdf, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.pdf, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.pdf, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.pdf, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.pdf, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.pdf, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.pdf, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 23:12:46 2024]
+Finished job 0.
+15 of 15 steps (100%) done
+Complete log: .snakemake/log/2024-09-23T231246.084071.snakemake.log

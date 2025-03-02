@@ -1,0 +1,311 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+all                        1
+extract_validatEVEs       14
+total                     15
+
+Select jobs to execute...
+Execute 14 jobs...
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    jobid: 34
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    jobid: 12
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    jobid: 67
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    jobid: 78
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    jobid: 100
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    jobid: 122
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    jobid: 144
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    jobid: 23
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    jobid: 89
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    jobid: 133
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 19:11:45 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    jobid: 111
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 67
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734695.1_idAnoMacuDA_375_x_genomic, ++$i)/e' > results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 34
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943737925.1_idAnoNiliSN_F5_01_genomic, ++$i)/e' > results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 133
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734755.1_idAnoMoucSN_F20_07_genomic, ++$i)/e' > results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 122
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic, ++$i)/e' > results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 89
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCA_964033645.1_idAnoFune21.1_genomic, ++$i)/e' > results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+[Mon Sep 23 19:11:45 2024]
+Error in rule extract_validatEVEs:
+    jobid: 111
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734745.1_idAnoDarlMG_H_01_genomic, ++$i)/e' > results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 23
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734635.1_idAnoCruzAS_RS32_06_genomic, ++$i)/e' > results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 144
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCA_963924065.2_idAnoArabHR-G3.2_genomic, ++$i)/e' > results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 12
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734725.1_idAnoMarsDA_429_01_genomic, ++$i)/e' > results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 1
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734845.2_idAnoFuneDA-416_04_genomic, ++$i)/e' > results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 56
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic, ++$i)/e' > results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 78
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734705.1_idAnoCousDA_361_x.2_genomic, ++$i)/e' > results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+Error in rule extract_validatEVEs:
+    jobid: 100
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734685.1_AcolN3_genomic, ++$i)/e' > results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule extract_validatEVEs:
+    jobid: 45
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734735.2_idAnoGambNW_F1_1_genomic, ++$i)/e' > results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-09-23T191145.681737.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

@@ -1,0 +1,1403 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    9
+extract_putatEVEs                  9
+extract_validatEVEs                9
+mask_putatEVEs                     9
+masksearch_putatEVEs               9
+retrosearch_putatEVEs_merge        9
+retrosearch_putatEVEs_udb          9
+retrosearch_putatEVEs_vdb          9
+search_assemblies                  9
+taxize_putatEVEs                   9
+validate_putatEVEs                 9
+total                            100
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:30:27 2024]
+localrule download_genome:
+    output: genomes/JADQCY01.fna, genomes/JADQCY01.htm
+    log: genomes/JADQCY01.log
+    jobid: 82
+    reason: Missing output files: genomes/JADQCY01.fna
+    wildcards: asm=JADQCY01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:30:47 2024]
+Finished job 82.
+1 of 100 steps (1%) done
+Removing temporary output genomes/JADQCY01.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:30:47 2024]
+localrule search_assemblies:
+    input: genomes/JADQCY01.fna
+    output: results/JADQCY01-search.o6, results/JADQCY01-search.bed
+    jobid: 81
+    reason: Missing output files: results/JADQCY01-search.bed; Input files updated by another job: genomes/JADQCY01.fna
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:32:51 2024]
+Finished job 81.
+2 of 100 steps (2%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sun Sep  1 13:32:51 2024]
+localrule download_genome:
+    output: genomes/CAWUOV02.fna, genomes/CAWUOV02.htm
+    log: genomes/CAWUOV02.log
+    jobid: 60
+    reason: Missing output files: genomes/CAWUOV02.fna
+    wildcards: asm=CAWUOV02
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:32:51 2024]
+localrule extract_putatEVEs:
+    input: results/JADQCY01-search.bed, genomes/JADQCY01.fna
+    output: results/JADQCY01-putatEVEs-unmasked.fna
+    jobid: 80
+    reason: Missing output files: results/JADQCY01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/JADQCY01.fna, results/JADQCY01-search.bed
+    wildcards: asm=JADQCY01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:32:53 2024]
+Finished job 80.
+3 of 100 steps (3%) done
+Removing temporary output genomes/JADQCY01.fna.
+Select jobs to execute...
+[Sun Sep  1 13:32:54 2024]
+Finished job 60.
+4 of 100 steps (4%) done
+Removing temporary output genomes/CAWUOV02.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 13:32:54 2024]
+localrule search_assemblies:
+    input: genomes/CAWUOV02.fna
+    output: results/CAWUOV02-search.o6, results/CAWUOV02-search.bed
+    jobid: 59
+    reason: Missing output files: results/CAWUOV02-search.bed; Input files updated by another job: genomes/CAWUOV02.fna
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:33:06 2024]
+Finished job 59.
+5 of 100 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:33:06 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADQCY01-putatEVEs-unmasked.fna
+    output: results/JADQCY01-mask.o6, results/JADQCY01-mask.bed
+    jobid: 83
+    reason: Missing output files: results/JADQCY01-mask.bed; Input files updated by another job: results/JADQCY01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:33:06 2024]
+Finished job 83.
+6 of 100 steps (6%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Sun Sep  1 13:33:06 2024]
+localrule extract_putatEVEs:
+    input: results/CAWUOV02-search.bed, genomes/CAWUOV02.fna
+    output: results/CAWUOV02-putatEVEs-unmasked.fna
+    jobid: 58
+    reason: Missing output files: results/CAWUOV02-putatEVEs-unmasked.fna; Input files updated by another job: genomes/CAWUOV02.fna, results/CAWUOV02-search.bed
+    wildcards: asm=CAWUOV02
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:33:06 2024]
+localrule mask_putatEVEs:
+    input: results/JADQCY01-putatEVEs-unmasked.fna, results/JADQCY01-mask.bed
+    output: results/JADQCY01-putatEVEs.fna
+    jobid: 79
+    reason: Missing output files: results/JADQCY01-putatEVEs.fna; Input files updated by another job: results/JADQCY01-putatEVEs-unmasked.fna, results/JADQCY01-mask.bed
+    wildcards: asm=JADQCY01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:33:06 2024]
+localrule download_genome:
+    output: genomes/JADQCX01.fna, genomes/JADQCX01.htm
+    log: genomes/JADQCX01.log
+    jobid: 16
+    reason: Missing output files: genomes/JADQCX01.fna
+    wildcards: asm=JADQCX01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:33:06 2024]
+Finished job 79.
+7 of 100 steps (7%) done
+Select jobs to execute...
+[Sun Sep  1 13:33:06 2024]
+Finished job 58.
+8 of 100 steps (8%) done
+Removing temporary output genomes/CAWUOV02.fna.
+[Sun Sep  1 13:33:25 2024]
+Finished job 16.
+9 of 100 steps (9%) done
+Removing temporary output genomes/JADQCX01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 13:33:25 2024]
+localrule search_assemblies:
+    input: genomes/JADQCX01.fna
+    output: results/JADQCX01-search.o6, results/JADQCX01-search.bed
+    jobid: 15
+    reason: Missing output files: results/JADQCX01-search.bed; Input files updated by another job: genomes/JADQCX01.fna
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:35:32 2024]
+Finished job 15.
+10 of 100 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:35:32 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADQCY01-putatEVEs.fna
+    output: results/JADQCY01-retro-vdb.o6
+    jobid: 88
+    reason: Missing output files: results/JADQCY01-retro-vdb.o6; Input files updated by another job: results/JADQCY01-putatEVEs.fna
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:35:36 2024]
+Finished job 88.
+11 of 100 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:35:37 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADQCY01-putatEVEs.fna
+    output: results/JADQCY01-retro-udb.o6
+    jobid: 87
+    reason: Missing output files: results/JADQCY01-retro-udb.o6; Input files updated by another job: results/JADQCY01-putatEVEs.fna
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:52 2024]
+Finished job 87.
+12 of 100 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:45:52 2024]
+localrule masksearch_putatEVEs:
+    input: results/CAWUOV02-putatEVEs-unmasked.fna
+    output: results/CAWUOV02-mask.o6, results/CAWUOV02-mask.bed
+    jobid: 61
+    reason: Missing output files: results/CAWUOV02-mask.bed; Input files updated by another job: results/CAWUOV02-putatEVEs-unmasked.fna
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:52 2024]
+Finished job 61.
+13 of 100 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:45:52 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADQCY01-retro-udb.o6, results/JADQCY01-retro-vdb.o6
+    output: results/JADQCY01-retro-notax.bed
+    jobid: 86
+    reason: Missing output files: results/JADQCY01-retro-notax.bed; Input files updated by another job: results/JADQCY01-retro-udb.o6, results/JADQCY01-retro-vdb.o6
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:53 2024]
+Finished job 86.
+14 of 100 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:45:53 2024]
+localrule taxize_putatEVEs:
+    input: results/JADQCY01-retro-notax.bed
+    output: results/JADQCY01-retro.bed
+    jobid: 85
+    reason: Missing output files: results/JADQCY01-retro.bed; Input files updated by another job: results/JADQCY01-retro-notax.bed
+    wildcards: asm=JADQCY01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:55 2024]
+Finished job 85.
+15 of 100 steps (15%) done
+Removing temporary output results/JADQCY01-retro-notax.bed.
+Select jobs to execute...
+Execute 4 jobs...
+
+[Sun Sep  1 13:45:55 2024]
+localrule mask_putatEVEs:
+    input: results/CAWUOV02-putatEVEs-unmasked.fna, results/CAWUOV02-mask.bed
+    output: results/CAWUOV02-putatEVEs.fna
+    jobid: 57
+    reason: Missing output files: results/CAWUOV02-putatEVEs.fna; Input files updated by another job: results/CAWUOV02-mask.bed, results/CAWUOV02-putatEVEs-unmasked.fna
+    wildcards: asm=CAWUOV02
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:45:55 2024]
+localrule validate_putatEVEs:
+    input: results/JADQCY01-retro.bed
+    output: results/JADQCY01-validatEVEs.tsv, results/JADQCY01-validatEVEs.pdf
+    jobid: 84
+    reason: Missing output files: results/JADQCY01-validatEVEs.pdf, results/JADQCY01-validatEVEs.tsv; Input files updated by another job: results/JADQCY01-retro.bed
+    wildcards: asm=JADQCY01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:45:55 2024]
+localrule download_genome:
+    output: genomes/JADGIR01.fna, genomes/JADGIR01.htm
+    log: genomes/JADGIR01.log
+    jobid: 93
+    reason: Missing output files: genomes/JADGIR01.fna
+    wildcards: asm=JADGIR01
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:45:55 2024]
+localrule extract_putatEVEs:
+    input: results/JADQCX01-search.bed, genomes/JADQCX01.fna
+    output: results/JADQCX01-putatEVEs-unmasked.fna
+    jobid: 14
+    reason: Missing output files: results/JADQCX01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/JADQCX01.fna, results/JADQCX01-search.bed
+    wildcards: asm=JADQCX01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:55 2024]
+Finished job 57.
+16 of 100 steps (16%) done
+Select jobs to execute...
+[Sun Sep  1 13:45:57 2024]
+Finished job 14.
+17 of 100 steps (17%) done
+Removing temporary output genomes/JADQCX01.fna.
+[Sun Sep  1 13:45:59 2024]
+Finished job 84.
+18 of 100 steps (18%) done
+Execute 1 jobs...
+
+[Sun Sep  1 13:45:59 2024]
+localrule extract_validatEVEs:
+    input: results/JADQCY01-putatEVEs.fna, results/JADQCY01-validatEVEs.tsv
+    output: results/JADQCY01-validatEVEs.fna
+    jobid: 78
+    reason: Missing output files: results/JADQCY01-validatEVEs.fna; Input files updated by another job: results/JADQCY01-putatEVEs.fna, results/JADQCY01-validatEVEs.tsv
+    wildcards: asm=JADQCY01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:45:59 2024]
+Finished job 78.
+19 of 100 steps (19%) done
+Select jobs to execute...
+[Sun Sep  1 13:46:09 2024]
+Finished job 93.
+20 of 100 steps (20%) done
+Removing temporary output genomes/JADGIR01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 13:46:09 2024]
+localrule search_assemblies:
+    input: genomes/JADGIR01.fna
+    output: results/JADGIR01-search.o6, results/JADGIR01-search.bed
+    jobid: 92
+    reason: Missing output files: results/JADGIR01-search.bed; Input files updated by another job: genomes/JADGIR01.fna
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:47:37 2024]
+Finished job 92.
+21 of 100 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:47:37 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/CAWUOV02-putatEVEs.fna
+    output: results/CAWUOV02-retro-vdb.o6
+    jobid: 66
+    reason: Missing output files: results/CAWUOV02-retro-vdb.o6; Input files updated by another job: results/CAWUOV02-putatEVEs.fna
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:47:41 2024]
+Finished job 66.
+22 of 100 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:47:41 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/CAWUOV02-putatEVEs.fna
+    output: results/CAWUOV02-retro-udb.o6
+    jobid: 65
+    reason: Missing output files: results/CAWUOV02-retro-udb.o6; Input files updated by another job: results/CAWUOV02-putatEVEs.fna
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:11 2024]
+Finished job 65.
+23 of 100 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:11 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADQCX01-putatEVEs-unmasked.fna
+    output: results/JADQCX01-mask.o6, results/JADQCX01-mask.bed
+    jobid: 17
+    reason: Missing output files: results/JADQCX01-mask.bed; Input files updated by another job: results/JADQCX01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:11 2024]
+Finished job 17.
+24 of 100 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:11 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/CAWUOV02-retro-udb.o6, results/CAWUOV02-retro-vdb.o6
+    output: results/CAWUOV02-retro-notax.bed
+    jobid: 64
+    reason: Missing output files: results/CAWUOV02-retro-notax.bed; Input files updated by another job: results/CAWUOV02-retro-udb.o6, results/CAWUOV02-retro-vdb.o6
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:11 2024]
+Finished job 64.
+25 of 100 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:11 2024]
+localrule taxize_putatEVEs:
+    input: results/CAWUOV02-retro-notax.bed
+    output: results/CAWUOV02-retro.bed
+    jobid: 63
+    reason: Missing output files: results/CAWUOV02-retro.bed; Input files updated by another job: results/CAWUOV02-retro-notax.bed
+    wildcards: asm=CAWUOV02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:13 2024]
+Finished job 63.
+26 of 100 steps (26%) done
+Removing temporary output results/CAWUOV02-retro-notax.bed.
+Select jobs to execute...
+Execute 4 jobs...
+
+[Sun Sep  1 13:52:14 2024]
+localrule download_genome:
+    output: genomes/CALSDG02.fna, genomes/CALSDG02.htm
+    log: genomes/CALSDG02.log
+    jobid: 38
+    reason: Missing output files: genomes/CALSDG02.fna
+    wildcards: asm=CALSDG02
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:52:14 2024]
+localrule mask_putatEVEs:
+    input: results/JADQCX01-putatEVEs-unmasked.fna, results/JADQCX01-mask.bed
+    output: results/JADQCX01-putatEVEs.fna
+    jobid: 13
+    reason: Missing output files: results/JADQCX01-putatEVEs.fna; Input files updated by another job: results/JADQCX01-mask.bed, results/JADQCX01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCX01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:52:14 2024]
+localrule extract_putatEVEs:
+    input: results/JADGIR01-search.bed, genomes/JADGIR01.fna
+    output: results/JADGIR01-putatEVEs-unmasked.fna
+    jobid: 91
+    reason: Missing output files: results/JADGIR01-putatEVEs-unmasked.fna; Input files updated by another job: results/JADGIR01-search.bed, genomes/JADGIR01.fna
+    wildcards: asm=JADGIR01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 13:52:14 2024]
+localrule validate_putatEVEs:
+    input: results/CAWUOV02-retro.bed
+    output: results/CAWUOV02-validatEVEs.tsv, results/CAWUOV02-validatEVEs.pdf
+    jobid: 62
+    reason: Missing output files: results/CAWUOV02-validatEVEs.tsv, results/CAWUOV02-validatEVEs.pdf; Input files updated by another job: results/CAWUOV02-retro.bed
+    wildcards: asm=CAWUOV02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:14 2024]
+Finished job 13.
+27 of 100 steps (27%) done
+Select jobs to execute...
+[Sun Sep  1 13:52:14 2024]
+Error in rule download_genome:
+    jobid: 38
+    output: genomes/CALSDG02.fna, genomes/CALSDG02.htm
+    log: genomes/CALSDG02.log (check log file(s) for error details)
+    shell:
+        /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/download-traces.sh CALSDG02 genomes/CALSDG02.htm > genomes/CALSDG02.fna 2> genomes/CALSDG02.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_genome since they might be corrupted:
+genomes/CALSDG02.fna, genomes/CALSDG02.htm
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:14 2024]
+localrule download_genome:
+    output: genomes/JADQCZ01.fna, genomes/JADQCZ01.htm
+    log: genomes/JADQCZ01.log
+    jobid: 71
+    reason: Missing output files: genomes/JADQCZ01.fna
+    wildcards: asm=JADQCZ01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:15 2024]
+Finished job 91.
+28 of 100 steps (28%) done
+Removing temporary output genomes/JADGIR01.fna.
+Select jobs to execute...
+[Sun Sep  1 13:52:16 2024]
+Finished job 62.
+29 of 100 steps (29%) done
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:16 2024]
+localrule extract_validatEVEs:
+    input: results/CAWUOV02-putatEVEs.fna, results/CAWUOV02-validatEVEs.tsv
+    output: results/CAWUOV02-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/CAWUOV02-validatEVEs.fna; Input files updated by another job: results/CAWUOV02-validatEVEs.tsv, results/CAWUOV02-putatEVEs.fna
+    wildcards: asm=CAWUOV02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:52:16 2024]
+Finished job 56.
+30 of 100 steps (30%) done
+Select jobs to execute...
+[Sun Sep  1 13:52:35 2024]
+Finished job 71.
+31 of 100 steps (31%) done
+Removing temporary output genomes/JADQCZ01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 13:52:35 2024]
+localrule search_assemblies:
+    input: genomes/JADQCZ01.fna
+    output: results/JADQCZ01-search.o6, results/JADQCZ01-search.bed
+    jobid: 70
+    reason: Missing output files: results/JADQCZ01-search.bed; Input files updated by another job: genomes/JADQCZ01.fna
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:54:46 2024]
+Finished job 70.
+32 of 100 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:54:46 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADQCX01-putatEVEs.fna
+    output: results/JADQCX01-retro-vdb.o6
+    jobid: 22
+    reason: Missing output files: results/JADQCX01-retro-vdb.o6; Input files updated by another job: results/JADQCX01-putatEVEs.fna
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 13:54:50 2024]
+Finished job 22.
+33 of 100 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 13:54:50 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADQCX01-putatEVEs.fna
+    output: results/JADQCX01-retro-udb.o6
+    jobid: 21
+    reason: Missing output files: results/JADQCX01-retro-udb.o6; Input files updated by another job: results/JADQCX01-putatEVEs.fna
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:48 2024]
+Finished job 21.
+34 of 100 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:04:48 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADGIR01-putatEVEs-unmasked.fna
+    output: results/JADGIR01-mask.o6, results/JADGIR01-mask.bed
+    jobid: 94
+    reason: Missing output files: results/JADGIR01-mask.bed; Input files updated by another job: results/JADGIR01-putatEVEs-unmasked.fna
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:49 2024]
+Finished job 94.
+35 of 100 steps (35%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:04:49 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADQCX01-retro-udb.o6, results/JADQCX01-retro-vdb.o6
+    output: results/JADQCX01-retro-notax.bed
+    jobid: 20
+    reason: Missing output files: results/JADQCX01-retro-notax.bed; Input files updated by another job: results/JADQCX01-retro-vdb.o6, results/JADQCX01-retro-udb.o6
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:49 2024]
+Finished job 20.
+36 of 100 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:04:49 2024]
+localrule taxize_putatEVEs:
+    input: results/JADQCX01-retro-notax.bed
+    output: results/JADQCX01-retro.bed
+    jobid: 19
+    reason: Missing output files: results/JADQCX01-retro.bed; Input files updated by another job: results/JADQCX01-retro-notax.bed
+    wildcards: asm=JADQCX01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:51 2024]
+Finished job 19.
+37 of 100 steps (37%) done
+Removing temporary output results/JADQCX01-retro-notax.bed.
+Select jobs to execute...
+Execute 4 jobs...
+
+[Sun Sep  1 14:04:51 2024]
+localrule download_genome:
+    output: genomes/ATLZ01.fna, genomes/ATLZ01.htm
+    log: genomes/ATLZ01.log
+    jobid: 49
+    reason: Missing output files: genomes/ATLZ01.fna
+    wildcards: asm=ATLZ01
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:04:51 2024]
+localrule validate_putatEVEs:
+    input: results/JADQCX01-retro.bed
+    output: results/JADQCX01-validatEVEs.tsv, results/JADQCX01-validatEVEs.pdf
+    jobid: 18
+    reason: Missing output files: results/JADQCX01-validatEVEs.pdf, results/JADQCX01-validatEVEs.tsv; Input files updated by another job: results/JADQCX01-retro.bed
+    wildcards: asm=JADQCX01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:04:51 2024]
+localrule extract_putatEVEs:
+    input: results/JADQCZ01-search.bed, genomes/JADQCZ01.fna
+    output: results/JADQCZ01-putatEVEs-unmasked.fna
+    jobid: 69
+    reason: Missing output files: results/JADQCZ01-putatEVEs-unmasked.fna; Input files updated by another job: results/JADQCZ01-search.bed, genomes/JADQCZ01.fna
+    wildcards: asm=JADQCZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:04:51 2024]
+localrule mask_putatEVEs:
+    input: results/JADGIR01-putatEVEs-unmasked.fna, results/JADGIR01-mask.bed
+    output: results/JADGIR01-putatEVEs.fna
+    jobid: 90
+    reason: Missing output files: results/JADGIR01-putatEVEs.fna; Input files updated by another job: results/JADGIR01-mask.bed, results/JADGIR01-putatEVEs-unmasked.fna
+    wildcards: asm=JADGIR01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:51 2024]
+Finished job 90.
+38 of 100 steps (38%) done
+Select jobs to execute...
+[Sun Sep  1 14:04:53 2024]
+Finished job 69.
+39 of 100 steps (39%) done
+Removing temporary output genomes/JADQCZ01.fna.
+[Sun Sep  1 14:04:56 2024]
+Finished job 18.
+40 of 100 steps (40%) done
+Execute 1 jobs...
+
+[Sun Sep  1 14:04:56 2024]
+localrule extract_validatEVEs:
+    input: results/JADQCX01-putatEVEs.fna, results/JADQCX01-validatEVEs.tsv
+    output: results/JADQCX01-validatEVEs.fna
+    jobid: 12
+    reason: Missing output files: results/JADQCX01-validatEVEs.fna; Input files updated by another job: results/JADQCX01-validatEVEs.tsv, results/JADQCX01-putatEVEs.fna
+    wildcards: asm=JADQCX01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:04:56 2024]
+Finished job 12.
+41 of 100 steps (41%) done
+Select jobs to execute...
+[Sun Sep  1 14:05:00 2024]
+Finished job 49.
+42 of 100 steps (42%) done
+Removing temporary output genomes/ATLZ01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 14:05:00 2024]
+localrule search_assemblies:
+    input: genomes/ATLZ01.fna
+    output: results/ATLZ01-search.o6, results/ATLZ01-search.bed
+    jobid: 48
+    reason: Missing output files: results/ATLZ01-search.bed; Input files updated by another job: genomes/ATLZ01.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:06:21 2024]
+Finished job 48.
+43 of 100 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:06:21 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADGIR01-putatEVEs.fna
+    output: results/JADGIR01-retro-udb.o6
+    jobid: 98
+    reason: Missing output files: results/JADGIR01-retro-udb.o6; Input files updated by another job: results/JADGIR01-putatEVEs.fna
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:39 2024]
+Finished job 98.
+44 of 100 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:15:39 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADQCZ01-putatEVEs-unmasked.fna
+    output: results/JADQCZ01-mask.o6, results/JADQCZ01-mask.bed
+    jobid: 72
+    reason: Missing output files: results/JADQCZ01-mask.bed; Input files updated by another job: results/JADQCZ01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:40 2024]
+Finished job 72.
+45 of 100 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:15:40 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADGIR01-putatEVEs.fna
+    output: results/JADGIR01-retro-vdb.o6
+    jobid: 99
+    reason: Missing output files: results/JADGIR01-retro-vdb.o6; Input files updated by another job: results/JADGIR01-putatEVEs.fna
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:44 2024]
+Finished job 99.
+46 of 100 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:15:44 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADGIR01-retro-udb.o6, results/JADGIR01-retro-vdb.o6
+    output: results/JADGIR01-retro-notax.bed
+    jobid: 97
+    reason: Missing output files: results/JADGIR01-retro-notax.bed; Input files updated by another job: results/JADGIR01-retro-udb.o6, results/JADGIR01-retro-vdb.o6
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:44 2024]
+Finished job 97.
+47 of 100 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:15:44 2024]
+localrule taxize_putatEVEs:
+    input: results/JADGIR01-retro-notax.bed
+    output: results/JADGIR01-retro.bed
+    jobid: 96
+    reason: Missing output files: results/JADGIR01-retro.bed; Input files updated by another job: results/JADGIR01-retro-notax.bed
+    wildcards: asm=JADGIR01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:46 2024]
+Finished job 96.
+48 of 100 steps (48%) done
+Removing temporary output results/JADGIR01-retro-notax.bed.
+Select jobs to execute...
+Execute 4 jobs...
+
+[Sun Sep  1 14:15:46 2024]
+localrule mask_putatEVEs:
+    input: results/JADQCZ01-putatEVEs-unmasked.fna, results/JADQCZ01-mask.bed
+    output: results/JADQCZ01-putatEVEs.fna
+    jobid: 68
+    reason: Missing output files: results/JADQCZ01-putatEVEs.fna; Input files updated by another job: results/JADQCZ01-putatEVEs-unmasked.fna, results/JADQCZ01-mask.bed
+    wildcards: asm=JADQCZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:15:46 2024]
+localrule validate_putatEVEs:
+    input: results/JADGIR01-retro.bed
+    output: results/JADGIR01-validatEVEs.tsv, results/JADGIR01-validatEVEs.pdf
+    jobid: 95
+    reason: Missing output files: results/JADGIR01-validatEVEs.tsv, results/JADGIR01-validatEVEs.pdf; Input files updated by another job: results/JADGIR01-retro.bed
+    wildcards: asm=JADGIR01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:15:46 2024]
+localrule extract_putatEVEs:
+    input: results/ATLZ01-search.bed, genomes/ATLZ01.fna
+    output: results/ATLZ01-putatEVEs-unmasked.fna
+    jobid: 47
+    reason: Missing output files: results/ATLZ01-putatEVEs-unmasked.fna; Input files updated by another job: results/ATLZ01-search.bed, genomes/ATLZ01.fna
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:15:46 2024]
+localrule download_genome:
+    output: genomes/JADQCV01.fna, genomes/JADQCV01.htm
+    log: genomes/JADQCV01.log
+    jobid: 5
+    reason: Missing output files: genomes/JADQCV01.fna
+    wildcards: asm=JADQCV01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:46 2024]
+Finished job 68.
+49 of 100 steps (49%) done
+Select jobs to execute...
+[Sun Sep  1 14:15:47 2024]
+Finished job 47.
+50 of 100 steps (50%) done
+Removing temporary output genomes/ATLZ01.fna.
+[Sun Sep  1 14:15:49 2024]
+Finished job 95.
+51 of 100 steps (51%) done
+Execute 1 jobs...
+
+[Sun Sep  1 14:15:49 2024]
+localrule extract_validatEVEs:
+    input: results/JADGIR01-putatEVEs.fna, results/JADGIR01-validatEVEs.tsv
+    output: results/JADGIR01-validatEVEs.fna
+    jobid: 89
+    reason: Missing output files: results/JADGIR01-validatEVEs.fna; Input files updated by another job: results/JADGIR01-validatEVEs.tsv, results/JADGIR01-putatEVEs.fna
+    wildcards: asm=JADGIR01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:15:49 2024]
+Finished job 89.
+52 of 100 steps (52%) done
+Select jobs to execute...
+[Sun Sep  1 14:16:04 2024]
+Finished job 5.
+53 of 100 steps (53%) done
+Removing temporary output genomes/JADQCV01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 14:16:04 2024]
+localrule search_assemblies:
+    input: genomes/JADQCV01.fna
+    output: results/JADQCV01-search.o6, results/JADQCV01-search.bed
+    jobid: 4
+    reason: Missing output files: results/JADQCV01-search.bed; Input files updated by another job: genomes/JADQCV01.fna
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:18:08 2024]
+Finished job 4.
+54 of 100 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:18:08 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADQCZ01-putatEVEs.fna
+    output: results/JADQCZ01-retro-udb.o6
+    jobid: 76
+    reason: Missing output files: results/JADQCZ01-retro-udb.o6; Input files updated by another job: results/JADQCZ01-putatEVEs.fna
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:37 2024]
+Finished job 76.
+55 of 100 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:28:37 2024]
+localrule masksearch_putatEVEs:
+    input: results/ATLZ01-putatEVEs-unmasked.fna
+    output: results/ATLZ01-mask.o6, results/ATLZ01-mask.bed
+    jobid: 50
+    reason: Missing output files: results/ATLZ01-mask.bed; Input files updated by another job: results/ATLZ01-putatEVEs-unmasked.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:38 2024]
+Finished job 50.
+56 of 100 steps (56%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:28:38 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADQCZ01-putatEVEs.fna
+    output: results/JADQCZ01-retro-vdb.o6
+    jobid: 77
+    reason: Missing output files: results/JADQCZ01-retro-vdb.o6; Input files updated by another job: results/JADQCZ01-putatEVEs.fna
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:43 2024]
+Finished job 77.
+57 of 100 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:28:43 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADQCZ01-retro-udb.o6, results/JADQCZ01-retro-vdb.o6
+    output: results/JADQCZ01-retro-notax.bed
+    jobid: 75
+    reason: Missing output files: results/JADQCZ01-retro-notax.bed; Input files updated by another job: results/JADQCZ01-retro-udb.o6, results/JADQCZ01-retro-vdb.o6
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:43 2024]
+Finished job 75.
+58 of 100 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:28:43 2024]
+localrule taxize_putatEVEs:
+    input: results/JADQCZ01-retro-notax.bed
+    output: results/JADQCZ01-retro.bed
+    jobid: 74
+    reason: Missing output files: results/JADQCZ01-retro.bed; Input files updated by another job: results/JADQCZ01-retro-notax.bed
+    wildcards: asm=JADQCZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:45 2024]
+Finished job 74.
+59 of 100 steps (59%) done
+Removing temporary output results/JADQCZ01-retro-notax.bed.
+Select jobs to execute...
+Execute 4 jobs...
+
+[Sun Sep  1 14:28:45 2024]
+localrule download_genome:
+    output: genomes/JADQCW01.fna, genomes/JADQCW01.htm
+    log: genomes/JADQCW01.log
+    jobid: 27
+    reason: Missing output files: genomes/JADQCW01.fna
+    wildcards: asm=JADQCW01
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:28:45 2024]
+localrule mask_putatEVEs:
+    input: results/ATLZ01-putatEVEs-unmasked.fna, results/ATLZ01-mask.bed
+    output: results/ATLZ01-putatEVEs.fna
+    jobid: 46
+    reason: Missing output files: results/ATLZ01-putatEVEs.fna; Input files updated by another job: results/ATLZ01-putatEVEs-unmasked.fna, results/ATLZ01-mask.bed
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:28:45 2024]
+localrule validate_putatEVEs:
+    input: results/JADQCZ01-retro.bed
+    output: results/JADQCZ01-validatEVEs.tsv, results/JADQCZ01-validatEVEs.pdf
+    jobid: 73
+    reason: Missing output files: results/JADQCZ01-validatEVEs.pdf, results/JADQCZ01-validatEVEs.tsv; Input files updated by another job: results/JADQCZ01-retro.bed
+    wildcards: asm=JADQCZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:28:45 2024]
+localrule extract_putatEVEs:
+    input: results/JADQCV01-search.bed, genomes/JADQCV01.fna
+    output: results/JADQCV01-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: results/JADQCV01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/JADQCV01.fna, results/JADQCV01-search.bed
+    wildcards: asm=JADQCV01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:45 2024]
+Finished job 46.
+60 of 100 steps (60%) done
+Select jobs to execute...
+[Sun Sep  1 14:28:47 2024]
+Finished job 3.
+61 of 100 steps (61%) done
+Removing temporary output genomes/JADQCV01.fna.
+[Sun Sep  1 14:28:49 2024]
+Finished job 73.
+62 of 100 steps (62%) done
+Execute 1 jobs...
+
+[Sun Sep  1 14:28:49 2024]
+localrule extract_validatEVEs:
+    input: results/JADQCZ01-putatEVEs.fna, results/JADQCZ01-validatEVEs.tsv
+    output: results/JADQCZ01-validatEVEs.fna
+    jobid: 67
+    reason: Missing output files: results/JADQCZ01-validatEVEs.fna; Input files updated by another job: results/JADQCZ01-putatEVEs.fna, results/JADQCZ01-validatEVEs.tsv
+    wildcards: asm=JADQCZ01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:28:49 2024]
+Finished job 67.
+63 of 100 steps (63%) done
+Select jobs to execute...
+[Sun Sep  1 14:29:05 2024]
+Finished job 27.
+64 of 100 steps (64%) done
+Removing temporary output genomes/JADQCW01.htm.
+Execute 1 jobs...
+
+[Sun Sep  1 14:29:05 2024]
+localrule search_assemblies:
+    input: genomes/JADQCW01.fna
+    output: results/JADQCW01-search.o6, results/JADQCW01-search.bed
+    jobid: 26
+    reason: Missing output files: results/JADQCW01-search.bed; Input files updated by another job: genomes/JADQCW01.fna
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:31:14 2024]
+Finished job 26.
+65 of 100 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:31:14 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADQCV01-putatEVEs-unmasked.fna
+    output: results/JADQCV01-mask.o6, results/JADQCV01-mask.bed
+    jobid: 6
+    reason: Missing output files: results/JADQCV01-mask.bed; Input files updated by another job: results/JADQCV01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:31:15 2024]
+Finished job 6.
+66 of 100 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:31:15 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ATLZ01-putatEVEs.fna
+    output: results/ATLZ01-retro-udb.o6
+    jobid: 54
+    reason: Missing output files: results/ATLZ01-retro-udb.o6; Input files updated by another job: results/ATLZ01-putatEVEs.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:35 2024]
+Finished job 54.
+67 of 100 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:35 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ATLZ01-putatEVEs.fna
+    output: results/ATLZ01-retro-vdb.o6
+    jobid: 55
+    reason: Missing output files: results/ATLZ01-retro-vdb.o6; Input files updated by another job: results/ATLZ01-putatEVEs.fna
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:39 2024]
+Finished job 55.
+68 of 100 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:40 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ATLZ01-retro-udb.o6, results/ATLZ01-retro-vdb.o6
+    output: results/ATLZ01-retro-notax.bed
+    jobid: 53
+    reason: Missing output files: results/ATLZ01-retro-notax.bed; Input files updated by another job: results/ATLZ01-retro-vdb.o6, results/ATLZ01-retro-udb.o6
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:40 2024]
+Finished job 53.
+69 of 100 steps (69%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:40 2024]
+localrule taxize_putatEVEs:
+    input: results/ATLZ01-retro-notax.bed
+    output: results/ATLZ01-retro.bed
+    jobid: 52
+    reason: Missing output files: results/ATLZ01-retro.bed; Input files updated by another job: results/ATLZ01-retro-notax.bed
+    wildcards: asm=ATLZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:42 2024]
+Finished job 52.
+70 of 100 steps (70%) done
+Removing temporary output results/ATLZ01-retro-notax.bed.
+Select jobs to execute...
+Execute 3 jobs...
+
+[Sun Sep  1 14:40:42 2024]
+localrule mask_putatEVEs:
+    input: results/JADQCV01-putatEVEs-unmasked.fna, results/JADQCV01-mask.bed
+    output: results/JADQCV01-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/JADQCV01-putatEVEs.fna; Input files updated by another job: results/JADQCV01-putatEVEs-unmasked.fna, results/JADQCV01-mask.bed
+    wildcards: asm=JADQCV01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:40:42 2024]
+localrule validate_putatEVEs:
+    input: results/ATLZ01-retro.bed
+    output: results/ATLZ01-validatEVEs.tsv, results/ATLZ01-validatEVEs.pdf
+    jobid: 51
+    reason: Missing output files: results/ATLZ01-validatEVEs.tsv, results/ATLZ01-validatEVEs.pdf; Input files updated by another job: results/ATLZ01-retro.bed
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:40:42 2024]
+localrule extract_putatEVEs:
+    input: results/JADQCW01-search.bed, genomes/JADQCW01.fna
+    output: results/JADQCW01-putatEVEs-unmasked.fna
+    jobid: 25
+    reason: Missing output files: results/JADQCW01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/JADQCW01.fna, results/JADQCW01-search.bed
+    wildcards: asm=JADQCW01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:42 2024]
+Finished job 2.
+71 of 100 steps (71%) done
+Select jobs to execute...
+[Sun Sep  1 14:40:43 2024]
+Finished job 25.
+72 of 100 steps (72%) done
+Removing temporary output genomes/JADQCW01.fna.
+[Sun Sep  1 14:40:44 2024]
+Finished job 51.
+73 of 100 steps (73%) done
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:44 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADQCV01-putatEVEs.fna
+    output: results/JADQCV01-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/JADQCV01-retro-vdb.o6; Input files updated by another job: results/JADQCV01-putatEVEs.fna
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:49 2024]
+Finished job 11.
+74 of 100 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:49 2024]
+localrule masksearch_putatEVEs:
+    input: results/JADQCW01-putatEVEs-unmasked.fna
+    output: results/JADQCW01-mask.o6, results/JADQCW01-mask.bed
+    jobid: 28
+    reason: Missing output files: results/JADQCW01-mask.bed; Input files updated by another job: results/JADQCW01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:40:50 2024]
+Finished job 28.
+75 of 100 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:40:50 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADQCV01-putatEVEs.fna
+    output: results/JADQCV01-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/JADQCV01-retro-udb.o6; Input files updated by another job: results/JADQCV01-putatEVEs.fna
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:51:31 2024]
+Finished job 10.
+76 of 100 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:51:31 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADQCV01-retro-udb.o6, results/JADQCV01-retro-vdb.o6
+    output: results/JADQCV01-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/JADQCV01-retro-notax.bed; Input files updated by another job: results/JADQCV01-retro-udb.o6, results/JADQCV01-retro-vdb.o6
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:51:31 2024]
+Finished job 9.
+77 of 100 steps (77%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 14:51:31 2024]
+localrule taxize_putatEVEs:
+    input: results/JADQCV01-retro-notax.bed
+    output: results/JADQCV01-retro.bed
+    jobid: 8
+    reason: Missing output files: results/JADQCV01-retro.bed; Input files updated by another job: results/JADQCV01-retro-notax.bed
+    wildcards: asm=JADQCV01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:51:34 2024]
+Finished job 8.
+78 of 100 steps (78%) done
+Removing temporary output results/JADQCV01-retro-notax.bed.
+Select jobs to execute...
+Execute 3 jobs...
+
+[Sun Sep  1 14:51:34 2024]
+localrule validate_putatEVEs:
+    input: results/JADQCV01-retro.bed
+    output: results/JADQCV01-validatEVEs.tsv, results/JADQCV01-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/JADQCV01-validatEVEs.tsv, results/JADQCV01-validatEVEs.pdf; Input files updated by another job: results/JADQCV01-retro.bed
+    wildcards: asm=JADQCV01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:51:34 2024]
+localrule mask_putatEVEs:
+    input: results/JADQCW01-putatEVEs-unmasked.fna, results/JADQCW01-mask.bed
+    output: results/JADQCW01-putatEVEs.fna
+    jobid: 24
+    reason: Missing output files: results/JADQCW01-putatEVEs.fna; Input files updated by another job: results/JADQCW01-mask.bed, results/JADQCW01-putatEVEs-unmasked.fna
+    wildcards: asm=JADQCW01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 14:51:34 2024]
+localrule extract_validatEVEs:
+    input: results/ATLZ01-putatEVEs.fna, results/ATLZ01-validatEVEs.tsv
+    output: results/ATLZ01-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/ATLZ01-validatEVEs.fna; Input files updated by another job: results/ATLZ01-validatEVEs.tsv, results/ATLZ01-putatEVEs.fna
+    wildcards: asm=ATLZ01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 14:51:34 2024]
+Finished job 24.
+79 of 100 steps (79%) done
+Select jobs to execute...
+[Sun Sep  1 14:51:34 2024]
+Finished job 45.
+80 of 100 steps (80%) done
+[Sun Sep  1 14:51:37 2024]
+Finished job 7.
+81 of 100 steps (81%) done
+Execute 1 jobs...
+
+[Sun Sep  1 14:51:37 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/JADQCW01-putatEVEs.fna
+    output: results/JADQCW01-retro-udb.o6
+    jobid: 32
+    reason: Missing output files: results/JADQCW01-retro-udb.o6; Input files updated by another job: results/JADQCW01-putatEVEs.fna
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:30 2024]
+Finished job 32.
+82 of 100 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:02:30 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/JADQCW01-putatEVEs.fna
+    output: results/JADQCW01-retro-vdb.o6
+    jobid: 33
+    reason: Missing output files: results/JADQCW01-retro-vdb.o6; Input files updated by another job: results/JADQCW01-putatEVEs.fna
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:35 2024]
+Finished job 33.
+83 of 100 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:02:35 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/JADQCW01-retro-udb.o6, results/JADQCW01-retro-vdb.o6
+    output: results/JADQCW01-retro-notax.bed
+    jobid: 31
+    reason: Missing output files: results/JADQCW01-retro-notax.bed; Input files updated by another job: results/JADQCW01-retro-udb.o6, results/JADQCW01-retro-vdb.o6
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:35 2024]
+Finished job 31.
+84 of 100 steps (84%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:02:35 2024]
+localrule taxize_putatEVEs:
+    input: results/JADQCW01-retro-notax.bed
+    output: results/JADQCW01-retro.bed
+    jobid: 30
+    reason: Missing output files: results/JADQCW01-retro.bed; Input files updated by another job: results/JADQCW01-retro-notax.bed
+    wildcards: asm=JADQCW01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:37 2024]
+Finished job 30.
+85 of 100 steps (85%) done
+Removing temporary output results/JADQCW01-retro-notax.bed.
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sun Sep  1 15:02:37 2024]
+localrule extract_validatEVEs:
+    input: results/JADQCV01-putatEVEs.fna, results/JADQCV01-validatEVEs.tsv
+    output: results/JADQCV01-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/JADQCV01-validatEVEs.fna; Input files updated by another job: results/JADQCV01-validatEVEs.tsv, results/JADQCV01-putatEVEs.fna
+    wildcards: asm=JADQCV01
+    resources: tmpdir=/tmp
+
+
+[Sun Sep  1 15:02:37 2024]
+localrule validate_putatEVEs:
+    input: results/JADQCW01-retro.bed
+    output: results/JADQCW01-validatEVEs.tsv, results/JADQCW01-validatEVEs.pdf
+    jobid: 29
+    reason: Missing output files: results/JADQCW01-validatEVEs.pdf, results/JADQCW01-validatEVEs.tsv; Input files updated by another job: results/JADQCW01-retro.bed
+    wildcards: asm=JADQCW01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:37 2024]
+Finished job 1.
+86 of 100 steps (86%) done
+[Sun Sep  1 15:02:42 2024]
+Finished job 29.
+87 of 100 steps (87%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:02:42 2024]
+localrule extract_validatEVEs:
+    input: results/JADQCW01-putatEVEs.fna, results/JADQCW01-validatEVEs.tsv
+    output: results/JADQCW01-validatEVEs.fna
+    jobid: 23
+    reason: Missing output files: results/JADQCW01-validatEVEs.fna; Input files updated by another job: results/JADQCW01-validatEVEs.tsv, results/JADQCW01-putatEVEs.fna
+    wildcards: asm=JADQCW01
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:02:42 2024]
+Finished job 23.
+88 of 100 steps (88%) done
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-09-01T133026.999521.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

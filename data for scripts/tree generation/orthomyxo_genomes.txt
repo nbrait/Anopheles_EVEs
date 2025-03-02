@@ -1,0 +1,1186 @@
+STHE01_EVE015	Anopheles
+STHD01_EVE027	Anopheles
+STHD01_EVE023	Anopheles
+STHD01_EVE022	Anopheles
+STHC01_EVE019	Anopheles
+STHA01_EVE035	Anopheles
+SIXB01_EVE010	Anopheles
+RWKB01_EVE013	Anopheles
+RWKB01_EVE012	Anopheles
+RWKB01_EVE011	Anopheles
+RWKB01_EVE010	Anopheles
+RWKB01_EVE009	Anopheles
+RWKB01_EVE007	Anopheles
+RWKB01_EVE002	Anopheles
+RCWQ01_EVE051	Anopheles
+RCWQ01_EVE050	Anopheles
+RCWQ01_EVE049	Anopheles
+LULB01_EVE113	Anopheles
+LULB01_EVE062	Anopheles
+LULB01_EVE060	Anopheles
+LULB01_EVE059	Anopheles
+LULB01_EVE030	Anopheles
+LULB01_EVE029	Anopheles
+LULB01_EVE025	Anopheles
+LULB01_EVE021	Anopheles
+LULB01_EVE020	Anopheles
+LULB01_EVE002	Anopheles
+LULA01_EVE049	Anopheles
+LULA01_EVE005	Anopheles
+LCWJ01_EVE013	Anopheles
+LCWJ01_EVE012	Anopheles
+LCWJ01_EVE011	Anopheles
+LCWJ01_EVE010	Anopheles
+LCWJ01_EVE009	Anopheles
+LCWJ01_EVE008	Anopheles
+LCWJ01_EVE004	Anopheles
+LCWJ01_EVE003	Anopheles
+JXXC01_EVE007	Anopheles
+JXXC01_EVE001	Anopheles
+JXXB01_EVE007	Anopheles
+JXWZ01_EVE023	Anopheles
+JXWZ01_EVE015	Anopheles
+JXPR01_EVE004	Anopheles
+JXPR01_EVE003	Anopheles
+JAVFHU01_EVE009	Anopheles
+JAVFHU01_EVE008	Anopheles
+JADQDA01_EVE024	Anopheles
+JADQDA01_EVE023	Anopheles
+JADQDA01_EVE022	Anopheles
+JADQDA01_EVE021	Anopheles
+JADQDA01_EVE020	Anopheles
+JADQDA01_EVE019	Anopheles
+JADQDA01_EVE015	Anopheles
+JADQDA01_EVE014	Anopheles
+JADQDA01_EVE013	Anopheles
+JADQDA01_EVE012	Anopheles
+JADQDA01_EVE011	Anopheles
+JADQDA01_EVE010	Anopheles
+JADQDA01_EVE009	Anopheles
+JADQDA01_EVE008	Anopheles
+JADQDA01_EVE007	Anopheles
+JADQDA01_EVE006	Anopheles
+JADQDA01_EVE005	Anopheles
+JADGIQ01_EVE018	Anopheles
+JADGIQ01_EVE016	Anopheles
+JADFTQ01_EVE007	Anopheles
+JADFTQ01_EVE006	Anopheles
+JADFTQ01_EVE005	Anopheles
+JADFTQ01_EVE004	Anopheles
+JADFTQ01_EVE002	Anopheles
+JADFTQ01_EVE001	Anopheles
+JADFTP01_EVE027	Anopheles
+JADFTP01_EVE026	Anopheles
+JADFTP01_EVE025	Anopheles
+JADFTP01_EVE024	Anopheles
+JADFTP01_EVE023	Anopheles
+JADFTP01_EVE022	Anopheles
+JADFTP01_EVE021	Anopheles
+JADFTP01_EVE020	Anopheles
+JADFTP01_EVE019	Anopheles
+JADFTP01_EVE018	Anopheles
+JADFTP01_EVE017	Anopheles
+JADFTP01_EVE016	Anopheles
+JADFTP01_EVE015	Anopheles
+JADFTP01_EVE014	Anopheles
+JADFTP01_EVE013	Anopheles
+JADFTP01_EVE012	Anopheles
+JADFTP01_EVE011	Anopheles
+JADFTP01_EVE010	Anopheles
+JADFTP01_EVE009	Anopheles
+JADFTP01_EVE008	Anopheles
+JADFTP01_EVE004	Anopheles
+JADFTP01_EVE003	Anopheles
+JADFTP01_EVE002	Anopheles
+JADFTP01_EVE001	Anopheles
+JADFFO01_EVE006	Anopheles
+JADFFJ01_EVE011	Anopheles
+JADFFJ01_EVE010	Anopheles
+JADFFJ01_EVE009	Anopheles
+JADFFJ01_EVE008	Anopheles
+JADFFJ01_EVE007	Anopheles
+JADFFJ01_EVE006	Anopheles
+JADFFJ01_EVE001	Anopheles
+GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic_EVE028	Anopheles
+GCF_943734845.2_idAnoFuneDA-416_04_genomic_EVE024	Anopheles
+GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic_EVE051	Anopheles
+GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic_EVE050	Anopheles
+GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic_EVE041	Anopheles
+GCF_943734755.1_idAnoMoucSN_F20_07_genomic_EVE035	Anopheles
+GCF_943734735.2_idAnoGambNW_F1_1_genomic_EVE008	Anopheles
+GCF_943734735.2_idAnoGambNW_F1_1_genomic_EVE007	Anopheles
+GCF_943734735.2_idAnoGambNW_F1_1_genomic_EVE006	Anopheles
+GCF_943734735.2_idAnoGambNW_F1_1_genomic_EVE005	Anopheles
+GCF_943734735.2_idAnoGambNW_F1_1_genomic_EVE004	Anopheles
+GCF_943734705.1_idAnoCousDA_361_x.2_genomic_EVE051	Anopheles
+GCF_943734705.1_idAnoCousDA_361_x.2_genomic_EVE050	Anopheles
+GCF_943734705.1_idAnoCousDA_361_x.2_genomic_EVE044	Anopheles
+GCF_943734695.1_idAnoMacuDA_375_x_genomic_EVE025	Anopheles
+GCF_943734695.1_idAnoMacuDA_375_x_genomic_EVE001	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE011	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE010	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE009	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE008	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE007	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE006	Anopheles
+GCF_943734685.1_AcolN3_genomic_EVE001	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE042	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE041	Anopheles
+GCF_943734635.1_idAnoCruzAS_RS32_06_genomic_EVE040	Anopheles
+GCA_964033645.1_idAnoFune21.1_genomic_EVE020	Anopheles
+GCA_963924065.2_idAnoArabHR-G3.2_genomic_EVE004	Anopheles
+GCA_963924065.2_idAnoArabHR-G3.2_genomic_EVE002	Anopheles
+CAWUOS01_EVE017	Anopheles
+CALTRM01_EVE009	Anopheles
+CALTRM01_EVE008	Anopheles
+CALTRM01_EVE007	Anopheles
+CALTRM01_EVE006	Anopheles
+CALSEK01_EVE007	Anopheles
+CALSEK01_EVE006	Anopheles
+CALSEF01_EVE047	Anopheles
+CALSED01_EVE033	Anopheles
+CALSDW01_EVE046	Anopheles
+CALSDW01_EVE041	Anopheles
+CALSDS01_EVE009	Anopheles
+CALSDS01_EVE008	Anopheles
+CALSDS01_EVE007	Anopheles
+CALSDS01_EVE006	Anopheles
+CALSDS01_EVE005	Anopheles
+CALSDS01_EVE004	Anopheles
+CALSDO01_EVE027	Anopheles
+CAJZCY01_EVE033	Anopheles
+CAJZCY01_EVE025	Anopheles
+AXCQ02_EVE006	Anopheles
+AXCP01_EVE020	Anopheles
+AXCP01_EVE018	Anopheles
+AXCN02_EVE028	Anopheles
+AXCN02_EVE026	Anopheles
+AXCN02_EVE017	Anopheles
+AXCN02_EVE006	Anopheles
+AXCN02_EVE003	Anopheles
+AXCL01_EVE016	Anopheles
+AXCK02_EVE013	Anopheles
+ATLV01_EVE015	Anopheles
+ATLV01_EVE014	Anopheles
+APCN01_EVE002	Anopheles
+APCL01_EVE044	Anopheles
+APCL01_EVE024	Anopheles
+APCJ01_EVE031	Anopheles
+APCI01_EVE021	Anopheles
+APCH01_EVE004	Anopheles
+ABKQ02_EVE011	Anopheles
+ABKQ02_EVE005	Anopheles
+ABKP02_EVE007	Anopheles
+ABKP02_EVE006	Anopheles
+ABKP02_EVE003	Anopheles
+ABKP02_EVE002	Anopheles
+AAAB01_EVE021	Anopheles
+AAAB01_EVE020	Anopheles
+AAAB01_EVE019	Anopheles
+AAAB01_EVE018	Anopheles
+AAAB01_EVE017	Anopheles
+AAAB01_EVE016	Anopheles
+AAAB01_EVE015	Anopheles
+AAAB01_EVE014	Anopheles
+AAAB01_EVE013	Anopheles
+AAAB01_EVE009	Anopheles
+SWKZ01018525.1_292_NP	Aedes albopictus
+SWKZ01018525.1_291_NP	Aedes albopictus
+SWKZ01018525.1_290_NP	Aedes albopictus
+SWKZ01018525.1_289_NP	Aedes albopictus
+SWKZ01017995.1_299_NP	Aedes albopictus
+SWKZ01015454.1_326_NP	Aedes albopictus
+SWKZ01015426.1_330_NP	Aedes albopictus
+SWKZ01015426.1_329_NP	Aedes albopictus
+SWKZ01015426.1_328_NP	Aedes albopictus
+SWKZ01015426.1_327_NP	Aedes albopictus
+SWKZ01012518.1_341_NP	Aedes albopictus
+SWKZ01011473.1_297_NP	Aedes albopictus
+SWKZ01011473.1_296_NP	Aedes albopictus
+SWKZ01011473.1_294_NP	Aedes albopictus
+SWKZ01011473.1_293_NP	Aedes albopictus
+SWKZ01010938.1_320_NP	Aedes albopictus
+SWKZ01010778.1_325_NP	Aedes albopictus
+SWKZ01010778.1_324_NP	Aedes albopictus
+SWKZ01008922.1_301_NP	Aedes albopictus
+SWKZ01008552.1_315_NP	Aedes albopictus
+SWKZ01008338.1_331_NP	Aedes albopictus
+SWKZ01006713.1_313_NP	Aedes albopictus
+SWKZ01006713.1_312_NP	Aedes albopictus
+SWKZ01006195.1_309_NP	Aedes albopictus
+SWKZ01006174.1_314_NP	Aedes albopictus
+SWKZ01003044.1_286_NP	Aedes albopictus
+SWKZ01003044.1_285_NP	Aedes albopictus
+SWKZ01003044.1_284_NP	Aedes albopictus
+SWKZ01003044.1_283_NP	Aedes albopictus
+SWKZ01003044.1_282_NP	Aedes albopictus
+SWKZ01002920.1_306_NP	Aedes albopictus
+SWKZ01002368.1_332_NP	Aedes albopictus
+SWKZ01000155.1_278_NP	Aedes albopictus
+SRR6155879_NP_9	SRR6155879_NP_9
+NIGP01003598.1_272_NP	Aedes aegypti
+NIGP01003598.1_271_NP	Aedes aegypti
+NIGP01003598.1_270_NP	Aedes aegypti
+NIGP01003499.1_274_NP	Aedes aegypti
+NIGP01003389.1_275_NP	Aedes aegypti
+NIGP01003054.1_273_NP	Aedes aegypti
+NIGP01002741.1_276_NP	Aedes aegypti
+NIGP01000003.1_259_NP	Aedes aegypti
+NIGP01000003.1_256_NP	Aedes aegypti
+NIGP01000003.1_255_NP	Aedes aegypti
+NIGP01000003.1_254_NP	Aedes aegypti
+NIGP01000003.1_253_NP	Aedes aegypti
+NIGP01000003.1_252_NP	Aedes aegypti
+NIGP01000003.1_251_NP	Aedes aegypti
+NIGP01000002.1_265_NP	Aedes aegypti
+NIGP01000002.1_264_NP	Aedes aegypti
+NIGP01000002.1_263_NP	Aedes aegypti
+NIGP01000002.1_262_NP	Aedes aegypti
+NIGP01000001.1_268_NP	Aedes aegypti
+NIGP01000001.1_267_NP	Aedes aegypti
+MNAF02001493.1_240_NP	Aedes albopictus
+MNAF02001287.1_209_NP	Aedes albopictus
+MNAF02001287.1_208_NP	Aedes albopictus
+MNAF02001287.1_207_NP	Aedes albopictus
+MNAF02001287.1_206_NP	Aedes albopictus
+MNAF02001137.1_233_NP	Aedes albopictus
+MNAF02001137.1_232_NP	Aedes albopictus
+MNAF02001128.1_214_NP	Aedes albopictus
+MNAF02001128.1_213_NP	Aedes albopictus
+MNAF02001059.1_220_NP	Aedes albopictus
+MNAF02000731.1_239_NP	Aedes albopictus
+MNAF02000731.1_238_NP	Aedes albopictus
+MNAF02000731.1_236_NP	Aedes albopictus
+MNAF02000508.1_222_NP	Aedes albopictus
+MNAF02000508.1_221_NP	Aedes albopictus
+MNAF02000378.1_225_NP	Aedes albopictus
+MNAF02000233.1_231_NP	Aedes albopictus
+MNAF02000233.1_229_NP	Aedes albopictus
+LMAV013319535.1_161_NP	Aedes albopictus
+LMAV013295339.1_173_NP	Aedes albopictus
+LMAV013274178.1_158_NP	Aedes albopictus
+LMAV013266568.1_160_NP	Aedes albopictus
+LMAV013252785.1_181_NP	Aedes albopictus
+LMAV013212441.1_184_NP	Aedes albopictus
+LMAV013191503.1_176_NP	Aedes albopictus
+LMAV013092942.1_165_NP	Aedes albopictus
+LMAV013063219.1_170_NP	Aedes albopictus
+LMAV013053826.1_172_NP	Aedes albopictus
+LMAV013018745.1_159_NP	Aedes albopictus
+LMAV012930992.1_182_NP	Aedes albopictus
+LMAV012749367.1_167_NP	Aedes albopictus
+LMAV012527461.1_169_NP	Aedes albopictus
+LMAV012434455.1_171_NP	Aedes albopictus
+LMAV012007140.1_191_NP	Aedes albopictus
+LMAV011835791.1_163_NP	Aedes albopictus
+LMAV011832680.1_166_NP	Aedes albopictus
+LMAV011680072.1_185_NP	Aedes albopictus
+LMAV011341161.1_164_NP	Aedes albopictus
+LMAV011059892.1_174_NP	Aedes albopictus
+LMAV010997997.1_183_NP	Aedes albopictus
+JXUM01244693.1_155_NP	Aedes albopictus
+JXUM01104405.1_148_NP	Aedes albopictus
+JXUM01104405.1_147_NP	Aedes albopictus
+JXUM01091724.1_142_NP	Aedes albopictus
+JXUM01088862.1_136_NP	Aedes albopictus
+JXUM01088862.1_135_NP	Aedes albopictus
+JXUM01072996.1_140_NP	Aedes albopictus
+JXUM01072996.1_139_NP	Aedes albopictus
+JXUM01049449.1_141_NP	Aedes albopictus
+JXUM01035854.1_151_NP	Aedes albopictus
+JXUM01035854.1_150_NP	Aedes albopictus
+JXUM01008838.1_146_NP	Aedes albopictus
+JXUM01005594.1_134_NP	Aedes albopictus
+JXPU01222816.1_114_NP	Aedes aegypti
+JXPU01187434.1_126_NP	Aedes aegypti
+JXPU01155130.1_120_NP	Aedes aegypti
+JXPU01134886.1_117_NP	Aedes aegypti
+JXPU01122936.1_121_NP	Aedes aegypti
+JXPU01109243.1_107_NP	Aedes aegypti
+JXPU01103522.1_119_NP	Aedes aegypti
+JXPU01078061.1_112_NP	Aedes aegypti
+JXPU01063506.1_131_NP	Aedes aegypti
+JXPU01063506.1_130_NP	Aedes aegypti
+JXPU01062959.1_122_NP	Aedes aegypti
+JXPU01037327.1_115_NP	Aedes aegypti
+JXPU01004007.1_124_NP	Aedes aegypti
+JAJPPM010001987.1_93_NP	Aedes aegypti
+JAJPPM010001963.1_78_NP	Aedes aegypti
+JAJPPM010001910.1_99_NP	Aedes aegypti
+JAJPPM010001872.1_86_NP	Aedes aegypti
+JAJPPM010001872.1_85_NP	Aedes aegypti
+JAJPPM010001872.1_84_NP	Aedes aegypti
+JAJPPM010001847.1_82_NP	Aedes aegypti
+JAJPPM010001801.1_101_NP	Aedes aegypti
+JAJPPM010001770.1_103_NP	Aedes aegypti
+JAJPPM010000988.1_104_NP	Aedes aegypti
+JAJPPM010000934.1_90_NP	Aedes aegypti
+JAJPPM010000934.1_89_NP	Aedes aegypti
+JAJPPM010000934.1_88_NP	Aedes aegypti
+JAJPPM010000705.1_81_NP	Aedes aegypti
+JAJPPM010000705.1_80_NP	Aedes aegypti
+JAJPPM010000601.1_94_NP	Aedes aegypti
+JAJPPM010000023.1_96_NP	Aedes aegypti
+JAJPPM010000005.1_92_NP	Aedes aegypti
+JAJPPM010000005.1_91_NP	Aedes aegypti
+JAJPPM010000001.1_100_NP	Aedes aegypti
+JAFDOQ010000568.1_61_NP	Aedes albopictus
+JAFDOQ010000568.1_60_NP	Aedes albopictus
+JAFDOQ010000565.1_67_NP	Aedes albopictus
+JAFDOQ010000565.1_66_NP	Aedes albopictus
+JAFDOQ010000565.1_65_NP	Aedes albopictus
+JAFDOQ010000565.1_64_NP	Aedes albopictus
+JAFDOQ010000565.1_62_NP	Aedes albopictus
+JAFDOQ010000349.1_72_NP	Aedes albopictus
+JAFDOQ010000236.1_76_NP	Aedes albopictus
+JAFDOQ010000028.1_68_NP	Aedes albopictus
+JABWQA011693063.1_40_NP	Aedes aegypti
+JABWQA011685943.1_53_NP	Aedes aegypti
+JABWQA011659084.1_37_NP	Aedes aegypti
+JABWQA011657540.1_33_NP	Aedes aegypti
+JABWQA011649476.1_50_NP	Aedes aegypti
+JABWQA011582508.1_30_NP	Aedes aegypti
+JABWQA011572224.1_44_NP	Aedes aegypti
+JABWQA011509079.1_34_NP	Aedes aegypti
+JABWQA011469743.1_54_NP	Aedes aegypti
+JABWQA011460385.1_38_NP	Aedes aegypti
+JABWQA011458437.1_56_NP	Aedes aegypti
+JABWQA011422761.1_39_NP	Aedes aegypti
+JABWQA011376926.1_46_NP	Aedes aegypti
+JABWQA011324320.1_47_NP	Aedes aegypti
+JABWQA011173765.1_45_NP	Aedes aegypti
+JABWQA011125866.1_52_NP	Aedes aegypti
+JABWQA010453995.1_48_NP	Aedes aegypti
+AAGE02020044.1_19_NP	Aedes aegypti
+AAGE02016037.1_7_NP	Aedes aegypti
+AAGE02014569.1_9_NP	Aedes aegypti
+AAGE02013358.1_17_NP	Aedes aegypti
+AAGE02010564.1_6_NP	Aedes aegypti
+AAGE02010564.1_5_NP	Aedes aegypti
+AAGE02009982.1_24_NP	Aedes aegypti
+AAGE02009981.1_22_NP	Aedes aegypti
+AAGE02009392.1_10_NP	Aedes aegypti
+AAGE02009150.1_8_NP	Aedes aegypti
+AAGE02008630.1_18_NP	Aedes aegypti
+AAGE02002749.1_27_NP	Aedes aegypti
+AAGE02000021.1_14_NP	Aedes aegypti
+AAGE02000021.1_13_NP	Aedes aegypti
+AAGE02000021.1_12_NP	Aedes aegypti
+NIGP01000003.1_257_PB1	Aedes aegypti
+JXPU01105546.1_110_PB1	Aedes aegypti
+JABWQA011647398.1_31_PB1	Aedes aegypti
+JABWQA011504615.1_29_PB1	Aedes aegypti
+AAGE02013194.1_2_PB1	Aedes aegypti
+AAGE02013193.1_15_PB1	Aedes aegypti
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

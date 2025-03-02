@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             11
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Oct  6 10:56:57 2024]
+localrule search_assemblies:
+    input: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    jobid: 4
+    reason: Updated input files: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Sun Oct  6 10:57:16 2024]
+Error in rule search_assemblies:
+    jobid: 4
+    input: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    shell:
+        /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/diamond-chopped.sh blastx --query genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna --out results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6 --threads 40 --db /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/databases/spiked_rvdb80.dmnd  --evalue 1e-4 -c1 -b6 -F15 --very-sensitive --max-hsps 100 --range-culling -k 20 --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle -W 60000 -S 50000
+/media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/blast2bed -qa results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6 | /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/bed-top -m 83 > results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-10-06T105657.781155.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

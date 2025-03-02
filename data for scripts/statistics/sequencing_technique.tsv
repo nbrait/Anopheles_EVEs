@@ -1,0 +1,93 @@
+sample	organism_an	infra_name_ss	sequencing
+APCK01	Anopheles albimanus	strain: ALBI9_A	second
+JABUIU01	Anopheles albimanus	strain: STELCA	hybrid
+JABUIV01	Anopheles albimanus	strain: STELCA	hybrid
+JADGIR01	Anopheles albimanus		second
+NJHH01	Anopheles aquasalis	isolate: PFPP-2014	second
+GCA_943734665.2	Anopheles aquasalis		hybrid
+CALSEH02	Anopheles aquasalis		hybrid
+JADFTQ01	Anopheles arabiensis	isolate: DONGOLA	third
+APCN01	Anopheles arabiensis	strain: DONG5_A	second
+GCA_963924065.2	Anopheles arabiensis		hybrid
+CAWUOX01	Anopheles arabiensis		hybrid
+AXCP01	Anopheles atroparvus	strain: EBRO	second
+JADGIQ01	Anopheles atroparvus	strain: EBRO	second
+CAJZCY01	Anopheles atroparvus	strain: Infravec2 EBRE	third
+CALTRM01	Anopheles atroparvus	strain: Infravec2 EBRE	third
+CALSEL02	Anopheles bellator		hybrid
+SIXB01	Anopheles bwambae	isolate: UG.S1.HLC.0915.001	second
+APCM01	Anopheles christyi	strain: ACHKN1017	second
+JADQCV01	Anopheles coluzzi		third
+JADQCW01	Anopheles coluzzi		third
+JADQCX01	Anopheles coluzzi		third
+JADQCY01	Anopheles coluzzi		third
+JADQCZ01	Anopheles coluzzi		third
+JADQDA01	Anopheles coluzzii	isolate: DLA112	third
+JADFTP01	Anopheles coluzzii	isolate: MOPTI	third
+JADFFJ01	Anopheles coluzzii	isolate: Ngousso colony	third
+RWKB01	Anopheles coluzzii	isolate: Ngousso colony	third
+ABKP02	Anopheles coluzzii	strain: M	first
+GCF_943734685.1	Anopheles coluzzii		hybrid
+CALSEE01	Anopheles coluzzii		hybrid
+GCF_943734705.1	Anopheles coustani		hybrid
+CALSDW01	Anopheles coustani		hybrid
+LULB01	Anopheles cracens	isolate: Kuala Lipis	second
+CALSDP01	Anopheles cruzii		hybrid
+AXCM01	Anopheles culicifacies	strain: species A-37_1	second
+JBCDWH01	Anopheles darlingi	isolate: JC-H15_27	hybrid
+ADMH02	Anopheles darlingi		second
+GCF_943734745.1	Anopheles darlingi		hybrid
+CALSEC01	Anopheles darlingi		hybrid
+APCL01	Anopheles dirus	strain: WRAIR2	second
+APCJ01	Anopheles epiroticus	strain: epiroticus2	second
+JXWZ01	Anopheles farauti	isolate: 7_10-11	second
+JXXC01	Anopheles farauti	isolate: AF1wgs1	second
+AXCN02	Anopheles farauti	strain: FAR1	second
+VTWG01	Anopheles fontenillei	isolate: MGB-2018	second
+APCI01	Anopheles funestus	strain: FUMOZ	second
+RCWQ01	Anopheles funestus	strain: FUMOZ	third
+CALSDO01	Anopheles funestus		hybrid
+GCF_943734845.2	Anopheles funestus		hybrid
+CAWUOS01	Anopheles funestus		hybrid
+GCA_964033645.1	Anopheles funestus		hybrid
+STHE01	Anopheles funestus-like sensu Spillings et al. (2009)	isolate: 11	second
+JXPR01	Anopheles gambiae	isolate: BV_Anopheles	second
+JAVFHU01	Anopheles gambiae	strain: G3	second
+AAAB01	Anopheles gambiae	strain: PEST	first
+LCWJ01	Anopheles gambiae	strain: Pimperena S	third
+ABKQ02	Anopheles gambiae	strain: S	first
+CALSDS01	Anopheles gambiae		hybrid
+GCF_943734735.2	Anopheles gambiae		hybrid
+JXXB01	Anopheles koliensis	isolate: AKwgs3	second
+STHD01	Anopheles longipalpis	isolate: 14254	second
+LULA01	Anopheles maculatus	isolate: BtQ1	second
+AXCL01	Anopheles maculatus	strain: maculatus3	second
+GCF_943734695.1	Anopheles maculipalpis		hybrid
+CALSEK01	Anopheles maculipalpis		hybrid
+GCF_943734725.1	Anopheles marshallii		hybrid
+CALSEI01	Anopheles marshallii		hybrid
+AXCO02	Anopheles melas	strain: CM1001059_A	second
+AXCQ02	Anopheles merus	strain: MAF	second
+JADFFO01	Anopheles merus	strain: MAF	third
+APHL01	Anopheles minimus	strain: MINIMUS1	second
+GCF_943734755.1	Anopheles moucheti		hybrid
+CALSED01	Anopheles moucheti		hybrid
+ATLZ01	Anopheles nili		second
+CALSFZ01	Anopheles nili		hybrid
+GCF_943737925.1	Anopheles nili		hybrid
+STHC01	Anopheles parensis	isolate: F777	second
+JAOEFI01	Anopheles plumbeus	isolate: IRGN T9WC8I42LB	second
+JXXA01	Anopheles punctulatus	isolate: APwgs2	second
+APCH01	Anopheles quadriannulatus	strain: QUAD4_A	second
+STHB01	Anopheles rivulorum	isolate: F794	second
+AXCK02	Anopheles sinensis	strain: SINENSIS	second
+ATLV01	Anopheles sinensis		second
+JALIHK01	Anopheles stephensi	isolate: IndInt_Asm2022	third
+JAIQDY01	Anopheles stephensi	strain: ICH-2016	third
+JABEOT01	Anopheles stephensi	strain: Indian	third
+JADFFN01	Anopheles stephensi	strain: Indian	hybrid
+ALPR02	Anopheles stephensi	strain: Indian Wild Type (Walter Reed)	hybrid
+APCG01	Anopheles stephensi	strain: SDA-500	second
+STHA01	Anopheles vaneedeni	isolate: F659	second
+GCF_943734765.1	Anopheles ziemanni		hybrid
+CALSEF01	Anopheles ziemanni		hybrid

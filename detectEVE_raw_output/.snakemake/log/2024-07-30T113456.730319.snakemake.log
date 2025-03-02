@@ -1,0 +1,158 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                   43
+extract_putatEVEs                 43
+extract_validatEVEs               45
+mask_putatEVEs                    44
+masksearch_putatEVEs              44
+retrosearch_putatEVEs_merge       45
+retrosearch_putatEVEs_udb         45
+retrosearch_putatEVEs_vdb         45
+search_assemblies                 43
+taxize_putatEVEs                  45
+validate_putatEVEs                45
+total                            488
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:34:57 2024]
+localrule masksearch_putatEVEs:
+    input: results/JXWZ01-putatEVEs-unmasked.fna
+    output: results/JXWZ01-mask.o6, results/JXWZ01-mask.bed
+    jobid: 413
+    reason: Missing output files: results/JXWZ01-mask.bed
+    wildcards: asm=JXWZ01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:34:57 2024]
+Finished job 413.
+1 of 488 steps (0.2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:34:57 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/CAWUOS01-putatEVEs.fna
+    output: results/CAWUOS01-retro-vdb.o6
+    jobid: 847
+    reason: Missing output files: results/CAWUOS01-retro-vdb.o6
+    wildcards: asm=CAWUOS01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:35:02 2024]
+Finished job 847.
+2 of 488 steps (0.4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:35:02 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/CAWUOS01-putatEVEs.fna
+    output: results/CAWUOS01-retro-udb.o6
+    jobid: 846
+    reason: Forced execution
+    wildcards: asm=CAWUOS01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:46:06 2024]
+Finished job 846.
+3 of 488 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:46:06 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/CAWUOS01-retro-udb.o6, results/CAWUOS01-retro-vdb.o6
+    output: results/CAWUOS01-retro-notax.bed
+    jobid: 845
+    reason: Missing output files: results/CAWUOS01-retro-notax.bed; Input files updated by another job: results/CAWUOS01-retro-udb.o6, results/CAWUOS01-retro-vdb.o6
+    wildcards: asm=CAWUOS01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:46:06 2024]
+Finished job 845.
+4 of 488 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:46:06 2024]
+localrule taxize_putatEVEs:
+    input: results/CAWUOS01-retro-notax.bed
+    output: results/CAWUOS01-retro.bed
+    jobid: 844
+    reason: Missing output files: results/CAWUOS01-retro.bed; Input files updated by another job: results/CAWUOS01-retro-notax.bed
+    wildcards: asm=CAWUOS01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:46:09 2024]
+Finished job 844.
+5 of 488 steps (1%) done
+Removing temporary output results/CAWUOS01-retro-notax.bed.
+Select jobs to execute...
+Execute 3 jobs...
+
+[Tue Jul 30 11:46:09 2024]
+localrule download_genome:
+    output: genomes/APCH01.fna, genomes/APCH01.htm
+    log: genomes/APCH01.log
+    jobid: 643
+    reason: Missing output files: genomes/APCH01.fna
+    wildcards: asm=APCH01
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 30 11:46:09 2024]
+localrule validate_putatEVEs:
+    input: results/CAWUOS01-retro.bed
+    output: results/CAWUOS01-validatEVEs.tsv, results/CAWUOS01-validatEVEs.pdf
+    jobid: 843
+    reason: Missing output files: results/CAWUOS01-validatEVEs.tsv, results/CAWUOS01-validatEVEs.pdf; Input files updated by another job: results/CAWUOS01-retro.bed
+    wildcards: asm=CAWUOS01
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 30 11:46:09 2024]
+localrule mask_putatEVEs:
+    input: results/JXWZ01-putatEVEs-unmasked.fna, results/JXWZ01-mask.bed
+    output: results/JXWZ01-putatEVEs.fna
+    jobid: 409
+    reason: Missing output files: results/JXWZ01-putatEVEs.fna; Input files updated by another job: results/JXWZ01-mask.bed
+    wildcards: asm=JXWZ01
+    resources: tmpdir=/tmp
+
+[Tue Jul 30 11:46:09 2024]
+Finished job 409.
+6 of 488 steps (1%) done
+Select jobs to execute...
+[Tue Jul 30 11:46:09 2024]
+Error in rule download_genome:
+    jobid: 643
+    output: genomes/APCH01.fna, genomes/APCH01.htm
+    log: genomes/APCH01.log (check log file(s) for error details)
+    shell:
+        /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/download-traces.sh APCH01 genomes/APCH01.htm > genomes/APCH01.fna 2> genomes/APCH01.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_genome since they might be corrupted:
+genomes/APCH01.fna
+[Tue Jul 30 11:46:13 2024]
+Finished job 843.
+7 of 488 steps (1%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-07-30T113456.730319.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

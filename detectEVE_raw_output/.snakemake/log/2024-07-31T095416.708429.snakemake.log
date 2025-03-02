@@ -1,0 +1,544 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    3
+extract_putatEVEs                  3
+extract_validatEVEs                3
+mask_putatEVEs                     3
+masksearch_putatEVEs               3
+retrosearch_putatEVEs_merge        3
+retrosearch_putatEVEs_udb          3
+retrosearch_putatEVEs_vdb          3
+search_assemblies                  3
+taxize_putatEVEs                   3
+validate_putatEVEs                 3
+total                             34
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 09:54:17 2024]
+localrule download_genome:
+    output: genomes/STHF01.fna, genomes/STHF01.htm
+    log: genomes/STHF01.log
+    jobid: 841
+    reason: Missing output files: genomes/STHF01.fna
+    wildcards: asm=STHF01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:54:31 2024]
+Finished job 841.
+1 of 34 steps (3%) done
+Removing temporary output genomes/STHF01.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 09:54:31 2024]
+localrule search_assemblies:
+    input: genomes/STHF01.fna
+    output: results/STHF01-search.o6, results/STHF01-search.bed
+    jobid: 840
+    reason: Missing output files: results/STHF01-search.bed; Input files updated by another job: genomes/STHF01.fna
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:56:58 2024]
+Finished job 840.
+2 of 34 steps (6%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Jul 31 09:56:58 2024]
+localrule download_genome:
+    output: genomes/ALPR02.fna, genomes/ALPR02.htm
+    log: genomes/ALPR02.log
+    jobid: 896
+    reason: Missing output files: genomes/ALPR02.fna
+    wildcards: asm=ALPR02
+    threads: 24
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 09:56:58 2024]
+localrule extract_putatEVEs:
+    input: results/STHF01-search.bed, genomes/STHF01.fna
+    output: results/STHF01-putatEVEs-unmasked.fna
+    jobid: 839
+    reason: Missing output files: results/STHF01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/STHF01.fna, results/STHF01-search.bed
+    wildcards: asm=STHF01
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:57:00 2024]
+Finished job 839.
+3 of 34 steps (9%) done
+Removing temporary output genomes/STHF01.fna.
+Select jobs to execute...
+[Wed Jul 31 09:57:18 2024]
+Finished job 896.
+4 of 34 steps (12%) done
+Removing temporary output genomes/ALPR02.htm.
+Execute 1 jobs...
+
+[Wed Jul 31 09:57:18 2024]
+localrule search_assemblies:
+    input: genomes/ALPR02.fna
+    output: results/ALPR02-search.o6, results/ALPR02-search.bed
+    jobid: 895
+    reason: Missing output files: results/ALPR02-search.bed; Input files updated by another job: genomes/ALPR02.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:59:20 2024]
+Finished job 895.
+5 of 34 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 09:59:20 2024]
+localrule masksearch_putatEVEs:
+    input: results/STHF01-putatEVEs-unmasked.fna
+    output: results/STHF01-mask.o6, results/STHF01-mask.bed
+    jobid: 842
+    reason: Missing output files: results/STHF01-mask.bed; Input files updated by another job: results/STHF01-putatEVEs-unmasked.fna
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:59:21 2024]
+Finished job 842.
+6 of 34 steps (18%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Jul 31 09:59:21 2024]
+localrule extract_putatEVEs:
+    input: results/ALPR02-search.bed, genomes/ALPR02.fna
+    output: results/ALPR02-putatEVEs-unmasked.fna
+    jobid: 894
+    reason: Missing output files: results/ALPR02-putatEVEs-unmasked.fna; Input files updated by another job: results/ALPR02-search.bed, genomes/ALPR02.fna
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 09:59:21 2024]
+localrule mask_putatEVEs:
+    input: results/STHF01-putatEVEs-unmasked.fna, results/STHF01-mask.bed
+    output: results/STHF01-putatEVEs.fna
+    jobid: 838
+    reason: Missing output files: results/STHF01-putatEVEs.fna; Input files updated by another job: results/STHF01-putatEVEs-unmasked.fna, results/STHF01-mask.bed
+    wildcards: asm=STHF01
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 09:59:21 2024]
+localrule download_genome:
+    output: genomes/STHA01.fna, genomes/STHA01.htm
+    log: genomes/STHA01.log
+    jobid: 181
+    reason: Missing output files: genomes/STHA01.fna
+    wildcards: asm=STHA01
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 09:59:21 2024]
+Finished job 838.
+7 of 34 steps (21%) done
+Select jobs to execute...
+[Wed Jul 31 09:59:22 2024]
+Finished job 894.
+8 of 34 steps (24%) done
+Removing temporary output genomes/ALPR02.fna.
+[Wed Jul 31 09:59:49 2024]
+Finished job 181.
+9 of 34 steps (26%) done
+Removing temporary output genomes/STHA01.htm.
+Execute 1 jobs...
+
+[Wed Jul 31 09:59:49 2024]
+localrule search_assemblies:
+    input: genomes/STHA01.fna
+    output: results/STHA01-search.o6, results/STHA01-search.bed
+    jobid: 180
+    reason: Missing output files: results/STHA01-search.bed; Input files updated by another job: genomes/STHA01.fna
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:02:35 2024]
+Finished job 180.
+10 of 34 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:02:35 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/STHF01-putatEVEs.fna
+    output: results/STHF01-retro-udb.o6
+    jobid: 846
+    reason: Missing output files: results/STHF01-retro-udb.o6; Input files updated by another job: results/STHF01-putatEVEs.fna
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:13 2024]
+Finished job 846.
+11 of 34 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:13 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/STHF01-putatEVEs.fna
+    output: results/STHF01-retro-vdb.o6
+    jobid: 847
+    reason: Missing output files: results/STHF01-retro-vdb.o6; Input files updated by another job: results/STHF01-putatEVEs.fna
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:20 2024]
+Finished job 847.
+12 of 34 steps (35%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:20 2024]
+localrule masksearch_putatEVEs:
+    input: results/ALPR02-putatEVEs-unmasked.fna
+    output: results/ALPR02-mask.o6, results/ALPR02-mask.bed
+    jobid: 897
+    reason: Missing output files: results/ALPR02-mask.bed; Input files updated by another job: results/ALPR02-putatEVEs-unmasked.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:20 2024]
+Finished job 897.
+13 of 34 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:20 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/STHF01-retro-udb.o6, results/STHF01-retro-vdb.o6
+    output: results/STHF01-retro-notax.bed
+    jobid: 845
+    reason: Missing output files: results/STHF01-retro-notax.bed; Input files updated by another job: results/STHF01-retro-udb.o6, results/STHF01-retro-vdb.o6
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:21 2024]
+Finished job 845.
+14 of 34 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:21 2024]
+localrule taxize_putatEVEs:
+    input: results/STHF01-retro-notax.bed
+    output: results/STHF01-retro.bed
+    jobid: 844
+    reason: Missing output files: results/STHF01-retro.bed; Input files updated by another job: results/STHF01-retro-notax.bed
+    wildcards: asm=STHF01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:23 2024]
+Finished job 844.
+15 of 34 steps (44%) done
+Removing temporary output results/STHF01-retro-notax.bed.
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Jul 31 10:23:23 2024]
+localrule mask_putatEVEs:
+    input: results/ALPR02-putatEVEs-unmasked.fna, results/ALPR02-mask.bed
+    output: results/ALPR02-putatEVEs.fna
+    jobid: 893
+    reason: Missing output files: results/ALPR02-putatEVEs.fna; Input files updated by another job: results/ALPR02-mask.bed, results/ALPR02-putatEVEs-unmasked.fna
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 10:23:23 2024]
+localrule validate_putatEVEs:
+    input: results/STHF01-retro.bed
+    output: results/STHF01-validatEVEs.tsv, results/STHF01-validatEVEs.pdf
+    jobid: 843
+    reason: Missing output files: results/STHF01-validatEVEs.tsv, results/STHF01-validatEVEs.pdf; Input files updated by another job: results/STHF01-retro.bed
+    wildcards: asm=STHF01
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 10:23:23 2024]
+localrule extract_putatEVEs:
+    input: results/STHA01-search.bed, genomes/STHA01.fna
+    output: results/STHA01-putatEVEs-unmasked.fna
+    jobid: 179
+    reason: Missing output files: results/STHA01-putatEVEs-unmasked.fna; Input files updated by another job: genomes/STHA01.fna, results/STHA01-search.bed
+    wildcards: asm=STHA01
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:23 2024]
+Finished job 893.
+16 of 34 steps (47%) done
+Select jobs to execute...
+[Wed Jul 31 10:23:25 2024]
+Finished job 179.
+17 of 34 steps (50%) done
+Removing temporary output genomes/STHA01.fna.
+[Wed Jul 31 10:23:28 2024]
+Finished job 843.
+18 of 34 steps (53%) done
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:28 2024]
+localrule masksearch_putatEVEs:
+    input: results/STHA01-putatEVEs-unmasked.fna
+    output: results/STHA01-mask.o6, results/STHA01-mask.bed
+    jobid: 182
+    reason: Missing output files: results/STHA01-mask.bed; Input files updated by another job: results/STHA01-putatEVEs-unmasked.fna
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:29 2024]
+Finished job 182.
+19 of 34 steps (56%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:29 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/ALPR02-putatEVEs.fna
+    output: results/ALPR02-retro-vdb.o6
+    jobid: 902
+    reason: Missing output files: results/ALPR02-retro-vdb.o6; Input files updated by another job: results/ALPR02-putatEVEs.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:23:33 2024]
+Finished job 902.
+20 of 34 steps (59%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:23:33 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/ALPR02-putatEVEs.fna
+    output: results/ALPR02-retro-udb.o6
+    jobid: 901
+    reason: Missing output files: results/ALPR02-retro-udb.o6; Input files updated by another job: results/ALPR02-putatEVEs.fna
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:33:29 2024]
+Finished job 901.
+21 of 34 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:33:29 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/ALPR02-retro-udb.o6, results/ALPR02-retro-vdb.o6
+    output: results/ALPR02-retro-notax.bed
+    jobid: 900
+    reason: Missing output files: results/ALPR02-retro-notax.bed; Input files updated by another job: results/ALPR02-retro-vdb.o6, results/ALPR02-retro-udb.o6
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:33:29 2024]
+Finished job 900.
+22 of 34 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:33:30 2024]
+localrule taxize_putatEVEs:
+    input: results/ALPR02-retro-notax.bed
+    output: results/ALPR02-retro.bed
+    jobid: 899
+    reason: Missing output files: results/ALPR02-retro.bed; Input files updated by another job: results/ALPR02-retro-notax.bed
+    wildcards: asm=ALPR02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:33:32 2024]
+Finished job 899.
+23 of 34 steps (68%) done
+Removing temporary output results/ALPR02-retro-notax.bed.
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Jul 31 10:33:32 2024]
+localrule extract_validatEVEs:
+    input: results/STHF01-putatEVEs.fna, results/STHF01-validatEVEs.tsv
+    output: results/STHF01-validatEVEs.fna
+    jobid: 837
+    reason: Missing output files: results/STHF01-validatEVEs.fna; Input files updated by another job: results/STHF01-putatEVEs.fna, results/STHF01-validatEVEs.tsv
+    wildcards: asm=STHF01
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 10:33:32 2024]
+localrule mask_putatEVEs:
+    input: results/STHA01-putatEVEs-unmasked.fna, results/STHA01-mask.bed
+    output: results/STHA01-putatEVEs.fna
+    jobid: 178
+    reason: Missing output files: results/STHA01-putatEVEs.fna; Input files updated by another job: results/STHA01-mask.bed, results/STHA01-putatEVEs-unmasked.fna
+    wildcards: asm=STHA01
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 10:33:32 2024]
+localrule validate_putatEVEs:
+    input: results/ALPR02-retro.bed
+    output: results/ALPR02-validatEVEs.tsv, results/ALPR02-validatEVEs.pdf
+    jobid: 898
+    reason: Missing output files: results/ALPR02-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv; Input files updated by another job: results/ALPR02-retro.bed
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:33:32 2024]
+Finished job 178.
+24 of 34 steps (71%) done
+Select jobs to execute...
+[Wed Jul 31 10:33:32 2024]
+Finished job 837.
+25 of 34 steps (74%) done
+[Wed Jul 31 10:33:35 2024]
+Finished job 898.
+26 of 34 steps (76%) done
+Execute 1 jobs...
+
+[Wed Jul 31 10:33:35 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/STHA01-putatEVEs.fna
+    output: results/STHA01-retro-vdb.o6
+    jobid: 187
+    reason: Missing output files: results/STHA01-retro-vdb.o6; Input files updated by another job: results/STHA01-putatEVEs.fna
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:33:40 2024]
+Finished job 187.
+27 of 34 steps (79%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:33:40 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/STHA01-putatEVEs.fna
+    output: results/STHA01-retro-udb.o6
+    jobid: 186
+    reason: Missing output files: results/STHA01-retro-udb.o6; Input files updated by another job: results/STHA01-putatEVEs.fna
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:09 2024]
+Finished job 186.
+28 of 34 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:47:09 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/STHA01-retro-udb.o6, results/STHA01-retro-vdb.o6
+    output: results/STHA01-retro-notax.bed
+    jobid: 185
+    reason: Missing output files: results/STHA01-retro-notax.bed; Input files updated by another job: results/STHA01-retro-vdb.o6, results/STHA01-retro-udb.o6
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:09 2024]
+Finished job 185.
+29 of 34 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:47:09 2024]
+localrule taxize_putatEVEs:
+    input: results/STHA01-retro-notax.bed
+    output: results/STHA01-retro.bed
+    jobid: 184
+    reason: Missing output files: results/STHA01-retro.bed; Input files updated by another job: results/STHA01-retro-notax.bed
+    wildcards: asm=STHA01
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:11 2024]
+Finished job 184.
+30 of 34 steps (88%) done
+Removing temporary output results/STHA01-retro-notax.bed.
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Jul 31 10:47:11 2024]
+localrule validate_putatEVEs:
+    input: results/STHA01-retro.bed
+    output: results/STHA01-validatEVEs.tsv, results/STHA01-validatEVEs.pdf
+    jobid: 183
+    reason: Missing output files: results/STHA01-validatEVEs.pdf, results/STHA01-validatEVEs.tsv; Input files updated by another job: results/STHA01-retro.bed
+    wildcards: asm=STHA01
+    resources: tmpdir=/tmp
+
+
+[Wed Jul 31 10:47:11 2024]
+localrule extract_validatEVEs:
+    input: results/ALPR02-putatEVEs.fna, results/ALPR02-validatEVEs.tsv
+    output: results/ALPR02-validatEVEs.fna
+    jobid: 892
+    reason: Missing output files: results/ALPR02-validatEVEs.fna; Input files updated by another job: results/ALPR02-validatEVEs.tsv, results/ALPR02-putatEVEs.fna
+    wildcards: asm=ALPR02
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:11 2024]
+Finished job 892.
+31 of 34 steps (91%) done
+[Wed Jul 31 10:47:15 2024]
+Finished job 183.
+32 of 34 steps (94%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:47:15 2024]
+localrule extract_validatEVEs:
+    input: results/STHA01-putatEVEs.fna, results/STHA01-validatEVEs.tsv
+    output: results/STHA01-validatEVEs.fna
+    jobid: 177
+    reason: Missing output files: results/STHA01-validatEVEs.fna; Input files updated by another job: results/STHA01-putatEVEs.fna, results/STHA01-validatEVEs.tsv
+    wildcards: asm=STHA01
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:15 2024]
+Finished job 177.
+33 of 34 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jul 31 10:47:15 2024]
+localrule all:
+    input: results/APCL01-validatEVEs.fna, results/APCL01-validatEVEs.pdf, results/APCL01-validatEVEs.tsv, results/LCWJ01-validatEVEs.fna, results/LCWJ01-validatEVEs.pdf, results/LCWJ01-validatEVEs.tsv, results/APCJ01-validatEVEs.fna, results/APCJ01-validatEVEs.pdf, results/APCJ01-validatEVEs.tsv, results/CALSFZ01-validatEVEs.fna, results/CALSFZ01-validatEVEs.pdf, results/CALSFZ01-validatEVEs.tsv, results/APCG01-validatEVEs.fna, results/APCG01-validatEVEs.pdf, results/APCG01-validatEVEs.tsv, results/JADFFO01-validatEVEs.fna, results/JADFFO01-validatEVEs.pdf, results/JADFFO01-validatEVEs.tsv, results/CALSDT01-validatEVEs.fna, results/CALSDT01-validatEVEs.pdf, results/CALSDT01-validatEVEs.tsv, results/ABKP02-validatEVEs.fna, results/ABKP02-validatEVEs.pdf, results/ABKP02-validatEVEs.tsv, results/ATLV01-validatEVEs.fna, results/ATLV01-validatEVEs.pdf, results/ATLV01-validatEVEs.tsv, results/CALSEF01-validatEVEs.fna, results/CALSEF01-validatEVEs.pdf, results/CALSEF01-validatEVEs.tsv, results/CALSED01-validatEVEs.fna, results/CALSED01-validatEVEs.pdf, results/CALSED01-validatEVEs.tsv, results/CALSDO01-validatEVEs.fna, results/CALSDO01-validatEVEs.pdf, results/CALSDO01-validatEVEs.tsv, results/JADQDA01-validatEVEs.fna, results/JADQDA01-validatEVEs.pdf, results/JADQDA01-validatEVEs.tsv, results/SIXB01-validatEVEs.fna, results/SIXB01-validatEVEs.pdf, results/SIXB01-validatEVEs.tsv, results/CALSDS01-validatEVEs.fna, results/CALSDS01-validatEVEs.pdf, results/CALSDS01-validatEVEs.tsv, results/CALSEC01-validatEVEs.fna, results/CALSEC01-validatEVEs.pdf, results/CALSEC01-validatEVEs.tsv, results/STHA01-validatEVEs.fna, results/STHA01-validatEVEs.pdf, results/STHA01-validatEVEs.tsv, results/LULA01-validatEVEs.fna, results/LULA01-validatEVEs.pdf, results/LULA01-validatEVEs.tsv, results/CALSEI01-validatEVEs.fna, results/CALSEI01-validatEVEs.pdf, results/CALSEI01-validatEVEs.tsv, results/JALIHK01-validatEVEs.fna, results/JALIHK01-validatEVEs.pdf, results/JALIHK01-validatEVEs.tsv, results/APCI01-validatEVEs.fna, results/APCI01-validatEVEs.pdf, results/APCI01-validatEVEs.tsv, results/CALSEE01-validatEVEs.fna, results/CALSEE01-validatEVEs.pdf, results/CALSEE01-validatEVEs.tsv, results/CALSEH02-validatEVEs.fna, results/CALSEH02-validatEVEs.pdf, results/CALSEH02-validatEVEs.tsv, results/JADGIQ01-validatEVEs.fna, results/JADGIQ01-validatEVEs.pdf, results/JADGIQ01-validatEVEs.tsv, results/CALSDU01-validatEVEs.fna, results/CALSDU01-validatEVEs.pdf, results/CALSDU01-validatEVEs.tsv, results/CAWUOS01-validatEVEs.fna, results/CAWUOS01-validatEVEs.pdf, results/CAWUOS01-validatEVEs.tsv, results/CALSGA01-validatEVEs.fna, results/CALSGA01-validatEVEs.pdf, results/CALSGA01-validatEVEs.tsv, results/ABKQ02-validatEVEs.fna, results/ABKQ02-validatEVEs.pdf, results/ABKQ02-validatEVEs.tsv, results/CAJZCY01-validatEVEs.fna, results/CAJZCY01-validatEVEs.pdf, results/CAJZCY01-validatEVEs.tsv, results/AAAB01-validatEVEs.fna, results/AAAB01-validatEVEs.pdf, results/AAAB01-validatEVEs.tsv, results/JXXB01-validatEVEs.fna, results/JXXB01-validatEVEs.pdf, results/JXXB01-validatEVEs.tsv, results/CALSDV02-validatEVEs.fna, results/CALSDV02-validatEVEs.pdf, results/CALSDV02-validatEVEs.tsv, results/JADFFN01-validatEVEs.fna, results/JADFFN01-validatEVEs.pdf, results/JADFFN01-validatEVEs.tsv, results/APHL01-validatEVEs.fna, results/APHL01-validatEVEs.pdf, results/APHL01-validatEVEs.tsv, results/CALSEJ01-validatEVEs.fna, results/CALSEJ01-validatEVEs.pdf, results/CALSEJ01-validatEVEs.tsv, results/APCN01-validatEVEs.fna, results/APCN01-validatEVEs.pdf, results/APCN01-validatEVEs.tsv, results/JAIQDY01-validatEVEs.fna, results/JAIQDY01-validatEVEs.pdf, results/JAIQDY01-validatEVEs.tsv, results/CALSEA01-validatEVEs.fna, results/CALSEA01-validatEVEs.pdf, results/CALSEA01-validatEVEs.tsv, results/JAVFHU01-validatEVEs.fna, results/JAVFHU01-validatEVEs.pdf, results/JAVFHU01-validatEVEs.tsv, results/VTWG01-validatEVEs.fna, results/VTWG01-validatEVEs.pdf, results/VTWG01-validatEVEs.tsv, results/JADFTP01-validatEVEs.fna, results/JADFTP01-validatEVEs.pdf, results/JADFTP01-validatEVEs.tsv, results/AXCM01-validatEVEs.fna, results/AXCM01-validatEVEs.pdf, results/AXCM01-validatEVEs.tsv, results/AXCL01-validatEVEs.fna, results/AXCL01-validatEVEs.pdf, results/AXCL01-validatEVEs.tsv, results/JADFFJ01-validatEVEs.fna, results/JADFFJ01-validatEVEs.pdf, results/JADFFJ01-validatEVEs.tsv, results/AXCK02-validatEVEs.fna, results/AXCK02-validatEVEs.pdf, results/AXCK02-validatEVEs.tsv, results/APCH01-validatEVEs.fna, results/APCH01-validatEVEs.pdf, results/APCH01-validatEVEs.tsv, results/CALSDX01-validatEVEs.fna, results/CALSDX01-validatEVEs.pdf, results/CALSDX01-validatEVEs.tsv, results/ADMH02-validatEVEs.fna, results/ADMH02-validatEVEs.pdf, results/ADMH02-validatEVEs.tsv, results/CALSDW01-validatEVEs.fna, results/CALSDW01-validatEVEs.pdf, results/CALSDW01-validatEVEs.tsv, results/JXWZ01-validatEVEs.fna, results/JXWZ01-validatEVEs.pdf, results/JXWZ01-validatEVEs.tsv, results/CAXITP01-validatEVEs.fna, results/CAXITP01-validatEVEs.pdf, results/CAXITP01-validatEVEs.tsv, results/JADFTQ01-validatEVEs.fna, results/JADFTQ01-validatEVEs.pdf, results/JADFTQ01-validatEVEs.tsv, results/CALSEL02-validatEVEs.fna, results/CALSEL02-validatEVEs.pdf, results/CALSEL02-validatEVEs.tsv, results/STHD01-validatEVEs.fna, results/STHD01-validatEVEs.pdf, results/STHD01-validatEVEs.tsv, results/JAOEFI01-validatEVEs.fna, results/JAOEFI01-validatEVEs.pdf, results/JAOEFI01-validatEVEs.tsv, results/AXCO02-validatEVEs.fna, results/AXCO02-validatEVEs.pdf, results/AXCO02-validatEVEs.tsv, results/JXPR01-validatEVEs.fna, results/JXPR01-validatEVEs.pdf, results/JXPR01-validatEVEs.tsv, results/AXCN02-validatEVEs.fna, results/AXCN02-validatEVEs.pdf, results/AXCN02-validatEVEs.tsv, results/JABUIU01-validatEVEs.fna, results/JABUIU01-validatEVEs.pdf, results/JABUIU01-validatEVEs.tsv, results/NJHH01-validatEVEs.fna, results/NJHH01-validatEVEs.pdf, results/NJHH01-validatEVEs.tsv, results/RCWQ01-validatEVEs.fna, results/RCWQ01-validatEVEs.pdf, results/RCWQ01-validatEVEs.tsv, results/STHE01-validatEVEs.fna, results/STHE01-validatEVEs.pdf, results/STHE01-validatEVEs.tsv, results/CALSDY02-validatEVEs.fna, results/CALSDY02-validatEVEs.pdf, results/CALSDY02-validatEVEs.tsv, results/CALTRM01-validatEVEs.fna, results/CALTRM01-validatEVEs.pdf, results/CALTRM01-validatEVEs.tsv, results/RWKB01-validatEVEs.fna, results/RWKB01-validatEVEs.pdf, results/RWKB01-validatEVEs.tsv, results/JXXA01-validatEVEs.fna, results/JXXA01-validatEVEs.pdf, results/JXXA01-validatEVEs.tsv, results/AXCP01-validatEVEs.fna, results/AXCP01-validatEVEs.pdf, results/AXCP01-validatEVEs.tsv, results/AXCQ02-validatEVEs.fna, results/AXCQ02-validatEVEs.pdf, results/AXCQ02-validatEVEs.tsv, results/CALSEK01-validatEVEs.fna, results/CALSEK01-validatEVEs.pdf, results/CALSEK01-validatEVEs.tsv, results/STHB01-validatEVEs.fna, results/STHB01-validatEVEs.pdf, results/STHB01-validatEVEs.tsv, results/JABEOT01-validatEVEs.fna, results/JABEOT01-validatEVEs.pdf, results/JABEOT01-validatEVEs.tsv, results/STHC01-validatEVEs.fna, results/STHC01-validatEVEs.pdf, results/STHC01-validatEVEs.tsv, results/LULB01-validatEVEs.fna, results/LULB01-validatEVEs.pdf, results/LULB01-validatEVEs.tsv, results/CALSDZ01-validatEVEs.fna, results/CALSDZ01-validatEVEs.pdf, results/CALSDZ01-validatEVEs.tsv, results/JBCDWH01-validatEVEs.fna, results/JBCDWH01-validatEVEs.pdf, results/JBCDWH01-validatEVEs.tsv, results/JABUIV01-validatEVEs.fna, results/JABUIV01-validatEVEs.pdf, results/JABUIV01-validatEVEs.tsv, results/STHF01-validatEVEs.fna, results/STHF01-validatEVEs.pdf, results/STHF01-validatEVEs.tsv, results/CALSEB02-validatEVEs.fna, results/CALSEB02-validatEVEs.pdf, results/CALSEB02-validatEVEs.tsv, results/CALSDP01-validatEVEs.fna, results/CALSDP01-validatEVEs.pdf, results/CALSDP01-validatEVEs.tsv, results/JXXC01-validatEVEs.fna, results/JXXC01-validatEVEs.pdf, results/JXXC01-validatEVEs.tsv, results/CAWUOX01-validatEVEs.fna, results/CAWUOX01-validatEVEs.pdf, results/CAWUOX01-validatEVEs.tsv, results/ALPR02-validatEVEs.fna, results/ALPR02-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv, results/APCK01-validatEVEs.fna, results/APCK01-validatEVEs.pdf, results/APCK01-validatEVEs.tsv, results/APCM01-validatEVEs.fna, results/APCM01-validatEVEs.pdf, results/APCM01-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/ALPR02-validatEVEs.pdf, results/ALPR02-validatEVEs.tsv, results/ALPR02-validatEVEs.fna, results/STHA01-validatEVEs.pdf, results/STHF01-validatEVEs.tsv, results/STHF01-validatEVEs.pdf, results/STHF01-validatEVEs.fna, results/STHA01-validatEVEs.fna, results/STHA01-validatEVEs.tsv
+    resources: tmpdir=/tmp
+
+[Wed Jul 31 10:47:15 2024]
+Finished job 0.
+34 of 34 steps (100%) done
+Complete log: .snakemake/log/2024-07-31T095416.708429.snakemake.log

@@ -1,0 +1,67 @@
+YP_009553376	Kampung Karu virus
+YP_009553010	Culex theileri flavivirus
+YP_009552767	Culex Flavi-like virus
+YP_009552278	Nanay virus
+YP_009513189	Kyasanur Forest disease virus
+YP_009508311	Porcine pestivirus 1
+YP_009433741	Potiskum virus
+YP_009428568	Zika virus
+YP_009389296	Mac Peak virus
+YP_009388577	Karumba virus
+YP_009352228	Ochlerotatus caspius flavivirus
+YP_009351861	Menghai flavivirus
+YP_009350102	Xishuangbanna aedes flavivirus
+YP_009350101	Phnom Penh bat virus
+YP_009345037	Saumarez Reef virus
+YP_009345036	Bamaga virus
+YP_009345031	Meaban virus
+YP_009345019	Nounane virus
+YP_009344969	Jugra virus
+YP_009344968	Uganda S virus
+YP_009344967	Saboya virus
+YP_009344962	Palm Creek virus
+YP_009344961	Bouboui virus
+YP_009305198.1	Anopheles flavivirus variant 1
+YP_009305197	Anopheles flavivirus variant 1
+YP_009259489	Hanko virus
+YP_009259488	Nakiwogo virus
+YP_009259257	Cell fusing agent virus
+YP_009256193	Culiseta flavivirus
+YP_009256192	Edge Hill virus
+YP_009222007	Banzi virus
+YP_009164031	Mercadeo virus
+YP_009164029	Parramatta River virus
+YP_009056848	Lammi virus
+YP_009056847	Ilomantsi virus
+YP_009041466	Nienokoue virus
+YP_009026410	Nhumirim virus
+YP_009001771	Kama virus
+YP_009001464	Tyuleniy virus
+YP_007877501	Mosquito flavivirus
+YP_005454257	Chaoyang virus
+YP_005352889	Donggang virus
+YP_003029843	Aedes flavivirus
+YP_002884239	Quang Binh virus
+YP_001621843	dengue virus type 3
+YP_001527877	West Nile virus
+YP_001469633	Hepatitis C virus genotype 5
+YP_899469	Culex flavivirus
+YP_164264	Usutu virus
+NP_891560	Kamiti River virus
+NP_878909	Omsk hemorrhagic fever virus
+NP_689391	Montana myotis leukoencephalitis virus
+NP_620045	Apoi virus
+NP_620044	Rio Bravo virus
+NP_619758	Modoc virus
+NP_075354	Classical swine fever virus
+NP_073286	dengue virus type 4
+NP_059434	Japanese encephalitis virus
+NP_059433	dengue virus type 1
+NP_056776	dengue virus type 2
+NP_043135	Tick-borne encephalitis virus
+NP_041726	Yellow fever virus
+NP_040937	Bovine viral diarrhea virus 1
+ASD50162.1	Dairy Swamp virus
+ASD50161.1	Haslams Creek virus
+AOR51362.1	Anopheles flavivirus-like 1
+AOR51360.1	Anopheles flavivirus variant 2

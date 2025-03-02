@@ -1,0 +1,210 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:22 2024]
+localrule download_genome:
+    output: genomes/CALSDQ02.fna, genomes/CALSDQ02.htm
+    log: genomes/CALSDQ02.log
+    jobid: 60
+    reason: Missing output files: genomes/CALSDQ02.fna
+    wildcards: asm=CALSDQ02
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:24 2024]
+Finished job 60.
+1 of 12 steps (8%) done
+Removing temporary output genomes/CALSDQ02.htm.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:24 2024]
+localrule search_assemblies:
+    input: genomes/CALSDQ02.fna
+    output: results/CALSDQ02-search.o6, results/CALSDQ02-search.bed
+    jobid: 59
+    reason: Missing output files: results/CALSDQ02-search.bed; Input files updated by another job: genomes/CALSDQ02.fna
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:27 2024]
+Finished job 59.
+2 of 12 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:27 2024]
+localrule extract_putatEVEs:
+    input: results/CALSDQ02-search.bed, genomes/CALSDQ02.fna
+    output: results/CALSDQ02-putatEVEs-unmasked.fna
+    jobid: 58
+    reason: Missing output files: results/CALSDQ02-putatEVEs-unmasked.fna; Input files updated by another job: results/CALSDQ02-search.bed, genomes/CALSDQ02.fna
+    wildcards: asm=CALSDQ02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:27 2024]
+Finished job 58.
+3 of 12 steps (25%) done
+Removing temporary output genomes/CALSDQ02.fna.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:27 2024]
+localrule masksearch_putatEVEs:
+    input: results/CALSDQ02-putatEVEs-unmasked.fna
+    output: results/CALSDQ02-mask.o6, results/CALSDQ02-mask.bed
+    jobid: 61
+    reason: Missing output files: results/CALSDQ02-mask.bed; Input files updated by another job: results/CALSDQ02-putatEVEs-unmasked.fna
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:28 2024]
+Finished job 61.
+4 of 12 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:28 2024]
+localrule mask_putatEVEs:
+    input: results/CALSDQ02-putatEVEs-unmasked.fna, results/CALSDQ02-mask.bed
+    output: results/CALSDQ02-putatEVEs.fna
+    jobid: 57
+    reason: Missing output files: results/CALSDQ02-putatEVEs.fna; Input files updated by another job: results/CALSDQ02-mask.bed, results/CALSDQ02-putatEVEs-unmasked.fna
+    wildcards: asm=CALSDQ02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:28 2024]
+Finished job 57.
+5 of 12 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:28 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/CALSDQ02-putatEVEs.fna
+    output: results/CALSDQ02-retro-vdb.o6
+    jobid: 66
+    reason: Missing output files: results/CALSDQ02-retro-vdb.o6; Input files updated by another job: results/CALSDQ02-putatEVEs.fna
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:09:31 2024]
+Finished job 66.
+6 of 12 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:09:31 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/CALSDQ02-putatEVEs.fna
+    output: results/CALSDQ02-retro-udb.o6
+    jobid: 65
+    reason: Missing output files: results/CALSDQ02-retro-udb.o6; Input files updated by another job: results/CALSDQ02-putatEVEs.fna
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:05 2024]
+Finished job 65.
+7 of 12 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:14:05 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/CALSDQ02-retro-udb.o6, results/CALSDQ02-retro-vdb.o6
+    output: results/CALSDQ02-retro-notax.bed
+    jobid: 64
+    reason: Missing output files: results/CALSDQ02-retro-notax.bed; Input files updated by another job: results/CALSDQ02-retro-udb.o6, results/CALSDQ02-retro-vdb.o6
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:05 2024]
+Finished job 64.
+8 of 12 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:14:05 2024]
+localrule taxize_putatEVEs:
+    input: results/CALSDQ02-retro-notax.bed
+    output: results/CALSDQ02-retro.bed
+    jobid: 63
+    reason: Missing output files: results/CALSDQ02-retro.bed; Input files updated by another job: results/CALSDQ02-retro-notax.bed
+    wildcards: asm=CALSDQ02
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:07 2024]
+Finished job 63.
+9 of 12 steps (75%) done
+Removing temporary output results/CALSDQ02-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:14:07 2024]
+localrule validate_putatEVEs:
+    input: results/CALSDQ02-retro.bed
+    output: results/CALSDQ02-validatEVEs.tsv, results/CALSDQ02-validatEVEs.pdf
+    jobid: 62
+    reason: Missing output files: results/CALSDQ02-validatEVEs.pdf, results/CALSDQ02-validatEVEs.tsv; Input files updated by another job: results/CALSDQ02-retro.bed
+    wildcards: asm=CALSDQ02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:11 2024]
+Finished job 62.
+10 of 12 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:14:11 2024]
+localrule extract_validatEVEs:
+    input: results/CALSDQ02-putatEVEs.fna, results/CALSDQ02-validatEVEs.tsv
+    output: results/CALSDQ02-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/CALSDQ02-validatEVEs.fna; Input files updated by another job: results/CALSDQ02-validatEVEs.tsv, results/CALSDQ02-putatEVEs.fna
+    wildcards: asm=CALSDQ02
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:11 2024]
+Finished job 56.
+11 of 12 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:14:11 2024]
+localrule all:
+    input: results/JADQCZ01-validatEVEs.fna, results/JADQCZ01-validatEVEs.pdf, results/JADQCZ01-validatEVEs.tsv, results/JADGIR01-validatEVEs.fna, results/JADGIR01-validatEVEs.pdf, results/JADGIR01-validatEVEs.tsv, results/JADQCV01-validatEVEs.fna, results/JADQCV01-validatEVEs.pdf, results/JADQCV01-validatEVEs.tsv, results/ATLZ01-validatEVEs.fna, results/ATLZ01-validatEVEs.pdf, results/ATLZ01-validatEVEs.tsv, results/JADQCX01-validatEVEs.fna, results/JADQCX01-validatEVEs.pdf, results/JADQCX01-validatEVEs.tsv, results/CALSDQ02-validatEVEs.fna, results/CALSDQ02-validatEVEs.pdf, results/CALSDQ02-validatEVEs.tsv, results/JADQCW01-validatEVEs.fna, results/JADQCW01-validatEVEs.pdf, results/JADQCW01-validatEVEs.tsv, results/CAWUOV02-validatEVEs.fna, results/CAWUOV02-validatEVEs.pdf, results/CAWUOV02-validatEVEs.tsv, results/JADQCY01-validatEVEs.fna, results/JADQCY01-validatEVEs.pdf, results/JADQCY01-validatEVEs.tsv
+    jobid: 0
+    reason: Input files updated by another job: results/CALSDQ02-validatEVEs.pdf, results/CALSDQ02-validatEVEs.tsv, results/CALSDQ02-validatEVEs.fna
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:14:11 2024]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2024-09-01T150921.942762.snakemake.log

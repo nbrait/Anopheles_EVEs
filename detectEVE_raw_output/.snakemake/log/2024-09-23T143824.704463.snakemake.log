@@ -1,0 +1,2430 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+extract_putatEVEs                 15
+extract_validatEVEs               15
+mask_putatEVEs                    15
+masksearch_putatEVEs              15
+retrosearch_putatEVEs_merge       15
+retrosearch_putatEVEs_udb         15
+retrosearch_putatEVEs_vdb         15
+search_assemblies                 15
+taxize_putatEVEs                  15
+validate_putatEVEs                15
+total                            151
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:38:24 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734755.1_idAnoMoucSN_F20_07_genomic.fna
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-search.o6, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-search.bed
+    jobid: 92
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-search.bed
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:40:32 2024]
+Finished job 92.
+1 of 151 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:40:32 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734705.1_idAnoCousDA_361_x.2_genomic.fna
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-search.o6, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-search.bed
+    jobid: 4
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-search.bed
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:42:54 2024]
+Finished job 4.
+2 of 151 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:42:54 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic.fna
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-search.o6, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-search.bed
+    jobid: 136
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-search.bed
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:45:16 2024]
+Finished job 136.
+3 of 151 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:45:16 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734735.2_idAnoGambNW_F1_1_genomic.fna
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-search.o6, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-search.bed
+    jobid: 114
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-search.bed
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:47:31 2024]
+Finished job 114.
+4 of 151 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:47:31 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734685.1_AcolN3_genomic.fna
+    output: results/GCF_943734685.1_AcolN3_genomic-search.o6, results/GCF_943734685.1_AcolN3_genomic-search.bed
+    jobid: 81
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-search.bed
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:49:46 2024]
+Finished job 81.
+5 of 151 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:49:46 2024]
+localrule search_assemblies:
+    input: genomes/GCA_963924065.2_idAnoArabHR-G3.2_genomic.fna
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-search.o6, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-search.bed
+    jobid: 26
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-search.bed
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:51:56 2024]
+Finished job 26.
+6 of 151 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:51:56 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734845.2_idAnoFuneDA-416_04_genomic.fna
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-search.o6, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-search.bed
+    jobid: 48
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-search.bed
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:54:04 2024]
+Finished job 48.
+7 of 151 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:54:04 2024]
+localrule search_assemblies:
+    input: genomes/GCA_964033645.1_idAnoFune21.1_genomic.fna
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-search.o6, results/GCA_964033645.1_idAnoFune21.1_genomic-search.bed
+    jobid: 103
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-search.bed
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:56:10 2024]
+Finished job 103.
+8 of 151 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:56:10 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734725.1_idAnoMarsDA_429_01_genomic.fna
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-search.o6, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-search.bed
+    jobid: 59
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-search.bed
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 14:58:15 2024]
+Finished job 59.
+9 of 151 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 14:58:15 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734695.1_idAnoMacuDA_375_x_genomic.fna
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-search.o6, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-search.bed
+    jobid: 15
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-search.bed
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:00:14 2024]
+Finished job 15.
+10 of 151 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:00:14 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943737925.1_idAnoNiliSN_F5_01_genomic.fna
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-search.o6, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-search.bed
+    jobid: 147
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-search.bed
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:01:56 2024]
+Finished job 147.
+11 of 151 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:01:56 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic.fna
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-search.o6, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-search.bed
+    jobid: 158
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-search.bed
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:03:40 2024]
+Finished job 158.
+12 of 151 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:03:40 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943734745.1_idAnoDarlMG_H_01_genomic.fna
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-search.o6, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-search.bed
+    jobid: 37
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-search.bed
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:05:17 2024]
+Finished job 37.
+13 of 151 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:05:17 2024]
+localrule search_assemblies:
+    input: genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    jobid: 70
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:06:53 2024]
+Finished job 70.
+14 of 151 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:06:53 2024]
+localrule search_assemblies:
+    input: genomes/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic.fna
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-search.o6, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-search.bed
+    jobid: 125
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-search.bed
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:27 2024]
+Finished job 125.
+15 of 151 steps (10%) done
+Select jobs to execute...
+Execute 15 jobs...
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-search.bed, genomes/GCF_943737925.1_idAnoNiliSN_F5_01_genomic.fna
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna
+    jobid: 146
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-search.bed
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-search.bed, genomes/GCF_943734685.1_AcolN3_genomic.fna
+    output: results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna
+    jobid: 80
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-search.bed
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-search.bed, genomes/GCF_943734705.1_idAnoCousDA_361_x.2_genomic.fna
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna
+    jobid: 3
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-search.bed
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-search.bed, genomes/GCA_963924065.2_idAnoArabHR-G3.2_genomic.fna
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna
+    jobid: 25
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-search.bed
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed, genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    jobid: 69
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-search.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-search.bed, genomes/GCF_943734845.2_idAnoFuneDA-416_04_genomic.fna
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna
+    jobid: 47
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-search.bed
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-search.bed, genomes/GCF_943734735.2_idAnoGambNW_F1_1_genomic.fna
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna
+    jobid: 113
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-search.bed
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-search.bed, genomes/GCF_943734755.1_idAnoMoucSN_F20_07_genomic.fna
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna
+    jobid: 91
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-search.bed
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-search.bed, genomes/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic.fna
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna
+    jobid: 157
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-search.bed
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-search.bed, genomes/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic.fna
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna
+    jobid: 135
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-search.bed
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-search.bed, genomes/GCF_943734745.1_idAnoDarlMG_H_01_genomic.fna
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna
+    jobid: 36
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-search.bed
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-search.bed, genomes/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic.fna
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna
+    jobid: 124
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-search.bed
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-search.bed, genomes/GCF_943734725.1_idAnoMarsDA_429_01_genomic.fna
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna
+    jobid: 58
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-search.bed
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-search.bed, genomes/GCF_943734695.1_idAnoMacuDA_375_x_genomic.fna
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna
+    jobid: 14
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-search.bed
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:27 2024]
+localrule extract_putatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-search.bed, genomes/GCA_964033645.1_idAnoFune21.1_genomic.fna
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna
+    jobid: 102
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-search.bed
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:28 2024]
+Finished job 36.
+16 of 151 steps (11%) done
+Removing temporary output genomes/GCF_943734745.1_idAnoDarlMG_H_01_genomic.fna.
+Select jobs to execute...
+[Mon Sep 23 15:08:28 2024]
+Finished job 69.
+17 of 151 steps (11%) done
+Removing temporary output genomes/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 157.
+18 of 151 steps (12%) done
+Removing temporary output genomes/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 124.
+19 of 151 steps (13%) done
+Removing temporary output genomes/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 146.
+20 of 151 steps (13%) done
+Removing temporary output genomes/GCF_943737925.1_idAnoNiliSN_F5_01_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 58.
+21 of 151 steps (14%) done
+Removing temporary output genomes/GCF_943734725.1_idAnoMarsDA_429_01_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 14.
+22 of 151 steps (15%) done
+Removing temporary output genomes/GCF_943734695.1_idAnoMacuDA_375_x_genomic.fna.
+[Mon Sep 23 15:08:28 2024]
+Finished job 47.
+23 of 151 steps (15%) done
+Removing temporary output genomes/GCF_943734845.2_idAnoFuneDA-416_04_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 102.
+24 of 151 steps (16%) done
+Removing temporary output genomes/GCA_964033645.1_idAnoFune21.1_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 80.
+25 of 151 steps (17%) done
+Removing temporary output genomes/GCF_943734685.1_AcolN3_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 113.
+26 of 151 steps (17%) done
+Removing temporary output genomes/GCF_943734735.2_idAnoGambNW_F1_1_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 25.
+27 of 151 steps (18%) done
+Removing temporary output genomes/GCA_963924065.2_idAnoArabHR-G3.2_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 91.
+28 of 151 steps (19%) done
+Removing temporary output genomes/GCF_943734755.1_idAnoMoucSN_F20_07_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 3.
+29 of 151 steps (19%) done
+Removing temporary output genomes/GCF_943734705.1_idAnoCousDA_361_x.2_genomic.fna.
+[Mon Sep 23 15:08:29 2024]
+Finished job 135.
+30 of 151 steps (20%) done
+Removing temporary output genomes/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic.fna.
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:29 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-mask.o6, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-mask.bed
+    jobid: 17
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-mask.bed; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:30 2024]
+Finished job 17.
+31 of 151 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:30 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-mask.o6, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-mask.bed
+    jobid: 39
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-mask.bed; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:30 2024]
+Finished job 39.
+32 of 151 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:30 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-mask.o6, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-mask.bed
+    jobid: 138
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-mask.bed; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:31 2024]
+Finished job 138.
+33 of 151 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:31 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-mask.o6, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-mask.bed
+    jobid: 160
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-mask.bed; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:31 2024]
+Finished job 160.
+34 of 151 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:31 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-mask.o6, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-mask.bed
+    jobid: 94
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-mask.bed; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:32 2024]
+Finished job 94.
+35 of 151 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:32 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-mask.o6, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-mask.bed
+    jobid: 116
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-mask.bed; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:32 2024]
+Finished job 116.
+36 of 151 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:32 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed
+    jobid: 72
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:32 2024]
+Finished job 72.
+37 of 151 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:33 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-mask.o6, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-mask.bed
+    jobid: 50
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-mask.bed; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:33 2024]
+Finished job 50.
+38 of 151 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:33 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-mask.o6, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-mask.bed
+    jobid: 127
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-mask.bed; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:34 2024]
+Finished job 127.
+39 of 151 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:34 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-mask.o6, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-mask.bed
+    jobid: 61
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-mask.bed; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:34 2024]
+Finished job 61.
+40 of 151 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:34 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-mask.o6, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-mask.bed
+    jobid: 149
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-mask.bed; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:34 2024]
+Finished job 149.
+41 of 151 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:35 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734685.1_AcolN3_genomic-mask.o6, results/GCF_943734685.1_AcolN3_genomic-mask.bed
+    jobid: 83
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-mask.bed; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:35 2024]
+Finished job 83.
+42 of 151 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:35 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-mask.o6, results/GCA_964033645.1_idAnoFune21.1_genomic-mask.bed
+    jobid: 105
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-mask.bed; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:35 2024]
+Finished job 105.
+43 of 151 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:36 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-mask.o6, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-mask.bed
+    jobid: 6
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-mask.bed; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:36 2024]
+Finished job 6.
+44 of 151 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:36 2024]
+localrule masksearch_putatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-mask.o6, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-mask.bed
+    jobid: 28
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-mask.bed; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:36 2024]
+Finished job 28.
+45 of 151 steps (30%) done
+Select jobs to execute...
+Execute 15 jobs...
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    jobid: 68
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-mask.bed, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-mask.bed
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna
+    jobid: 2
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-mask.bed, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-mask.bed
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna
+    jobid: 90
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs-unmasked.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-mask.bed
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-mask.bed
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    jobid: 112
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-mask.bed, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-mask.bed
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    jobid: 156
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-mask.bed, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-mask.bed
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna
+    jobid: 134
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-mask.bed, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-mask.bed
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    jobid: 35
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs-unmasked.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-mask.bed
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-mask.bed
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    jobid: 13
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-mask.bed, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna, results/GCF_943734685.1_AcolN3_genomic-mask.bed
+    output: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    jobid: 79
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-mask.bed, results/GCF_943734685.1_AcolN3_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-mask.bed
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna
+    jobid: 57
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-mask.bed, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-mask.bed
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna
+    jobid: 123
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-mask.bed, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-mask.bed
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna
+    jobid: 46
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs-unmasked.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-mask.bed
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-mask.bed
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna
+    jobid: 145
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-mask.bed, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-mask.bed
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna
+    jobid: 101
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-mask.bed, results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 15:08:37 2024]
+localrule mask_putatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-mask.bed
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna
+    jobid: 24
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-mask.bed, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs-unmasked.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:08:37 2024]
+Finished job 68.
+46 of 151 steps (30%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 2.
+47 of 151 steps (31%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 156.
+48 of 151 steps (32%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 112.
+49 of 151 steps (32%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 90.
+50 of 151 steps (33%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 134.
+51 of 151 steps (34%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 35.
+52 of 151 steps (34%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 13.
+53 of 151 steps (35%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 79.
+54 of 151 steps (36%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 57.
+55 of 151 steps (36%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 123.
+56 of 151 steps (37%) done
+Select jobs to execute...
+[Mon Sep 23 15:08:37 2024]
+Finished job 145.
+57 of 151 steps (38%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 101.
+58 of 151 steps (38%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 46.
+59 of 151 steps (39%) done
+[Mon Sep 23 15:08:37 2024]
+Finished job 24.
+60 of 151 steps (40%) done
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:37 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-vdb.o6
+    jobid: 55
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Mon Sep 23 15:08:41 2024]
+Finished job 55.
+61 of 151 steps (40%) done
+Execute 1 jobs...
+
+[Mon Sep 23 15:08:42 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-udb.o6
+    jobid: 54
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:21:15 2024]
+Finished job 54.
+62 of 151 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:21:15 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-udb.o6, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-vdb.o6
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-notax.bed
+    jobid: 53
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-udb.o6, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:21:16 2024]
+Finished job 53.
+63 of 151 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:21:16 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-notax.bed
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro.bed
+    jobid: 52
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro.bed; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:21:19 2024]
+Finished job 52.
+64 of 151 steps (42%) done
+Removing temporary output results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:21:19 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-vdb.o6
+    jobid: 143
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:21:24 2024]
+Finished job 143.
+65 of 151 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:21:24 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-vdb.o6
+    jobid: 66
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:21:28 2024]
+Finished job 66.
+66 of 151 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:21:29 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-udb.o6
+    jobid: 142
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:32:57 2024]
+Finished job 142.
+67 of 151 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:32:57 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-udb.o6, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-vdb.o6
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-notax.bed
+    jobid: 141
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-udb.o6, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:32:57 2024]
+Finished job 141.
+68 of 151 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:32:57 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-notax.bed
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro.bed
+    jobid: 140
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro.bed; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:32:59 2024]
+Finished job 140.
+69 of 151 steps (46%) done
+Removing temporary output results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:32:59 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-vdb.o6
+    jobid: 154
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:33:04 2024]
+Finished job 154.
+70 of 151 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:33:04 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-udb.o6
+    jobid: 65
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:43:48 2024]
+Finished job 65.
+71 of 151 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:43:48 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-udb.o6, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-vdb.o6
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-notax.bed
+    jobid: 64
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-vdb.o6, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-udb.o6
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:43:48 2024]
+Finished job 64.
+72 of 151 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:43:48 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-notax.bed
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro.bed
+    jobid: 63
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro.bed; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:43:50 2024]
+Finished job 63.
+73 of 151 steps (48%) done
+Removing temporary output results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:43:50 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-udb.o6
+    jobid: 98
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 15:54:41 2024]
+Finished job 98.
+74 of 151 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 15:54:41 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-udb.o6
+    jobid: 10
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:06:31 2024]
+Finished job 10.
+75 of 151 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:06:31 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-vdb.o6
+    jobid: 99
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:06:36 2024]
+Finished job 99.
+76 of 151 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:06:36 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-udb.o6, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-vdb.o6
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-notax.bed
+    jobid: 97
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-udb.o6, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:06:36 2024]
+Finished job 97.
+77 of 151 steps (51%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:06:36 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-notax.bed
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro.bed
+    jobid: 96
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro.bed; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:06:38 2024]
+Finished job 96.
+78 of 151 steps (52%) done
+Removing temporary output results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:06:38 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    output: results/GCF_943734685.1_AcolN3_genomic-retro-udb.o6
+    jobid: 87
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:16:55 2024]
+Finished job 87.
+79 of 151 steps (52%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:16:55 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-vdb.o6
+    jobid: 22
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:16:59 2024]
+Finished job 22.
+80 of 151 steps (53%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:16:59 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-vdb.o6
+    jobid: 110
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-vdb.o6; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:17:04 2024]
+Finished job 110.
+81 of 151 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:17:04 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-udb.o6
+    jobid: 21
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:26:48 2024]
+Finished job 21.
+82 of 151 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:26:48 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-udb.o6, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-vdb.o6
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-notax.bed
+    jobid: 20
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-udb.o6, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:26:48 2024]
+Finished job 20.
+83 of 151 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:26:48 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-notax.bed
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro.bed
+    jobid: 19
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro.bed; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:26:51 2024]
+Finished job 19.
+84 of 151 steps (56%) done
+Removing temporary output results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:26:51 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-vdb.o6
+    jobid: 33
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-vdb.o6; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:26:55 2024]
+Finished job 33.
+85 of 151 steps (56%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:26:55 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-udb.o6
+    jobid: 109
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-udb.o6; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:37:52 2024]
+Finished job 109.
+86 of 151 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:37:52 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-udb.o6, results/GCA_964033645.1_idAnoFune21.1_genomic-retro-vdb.o6
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-notax.bed
+    jobid: 108
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-notax.bed; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-udb.o6, results/GCA_964033645.1_idAnoFune21.1_genomic-retro-vdb.o6
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:37:53 2024]
+Finished job 108.
+87 of 151 steps (58%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:37:53 2024]
+localrule taxize_putatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-notax.bed
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-retro.bed
+    jobid: 107
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-retro.bed; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-retro-notax.bed
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:37:55 2024]
+Finished job 107.
+88 of 151 steps (58%) done
+Removing temporary output results/GCA_964033645.1_idAnoFune21.1_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:37:55 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-vdb.o6
+    jobid: 121
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:38:00 2024]
+Finished job 121.
+89 of 151 steps (59%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:38:00 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-udb.o6
+    jobid: 32
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-udb.o6; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:48:13 2024]
+Finished job 32.
+90 of 151 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:48:13 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-udb.o6, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-vdb.o6
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-notax.bed
+    jobid: 31
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-notax.bed; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-udb.o6, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-vdb.o6
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:48:14 2024]
+Finished job 31.
+91 of 151 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:48:14 2024]
+localrule taxize_putatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-notax.bed
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro.bed
+    jobid: 30
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro.bed; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-notax.bed
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:48:16 2024]
+Finished job 30.
+92 of 151 steps (61%) done
+Removing temporary output results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:48:16 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-vdb.o6
+    jobid: 44
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:48:21 2024]
+Finished job 44.
+93 of 151 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:48:21 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-udb.o6
+    jobid: 131
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:59:06 2024]
+Finished job 131.
+94 of 151 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:59:06 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    output: results/GCF_943734685.1_AcolN3_genomic-retro-vdb.o6
+    jobid: 88
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 16:59:10 2024]
+Finished job 88.
+95 of 151 steps (63%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 16:59:10 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-udb.o6
+    jobid: 164
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:09:56 2024]
+Finished job 164.
+96 of 151 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:09:56 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-udb.o6
+    jobid: 120
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:20:03 2024]
+Finished job 120.
+97 of 151 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:20:03 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6
+    jobid: 76
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:35 2024]
+Finished job 76.
+98 of 151 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:35 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734685.1_AcolN3_genomic-retro-udb.o6, results/GCF_943734685.1_AcolN3_genomic-retro-vdb.o6
+    output: results/GCF_943734685.1_AcolN3_genomic-retro-notax.bed
+    jobid: 86
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-retro-udb.o6, results/GCF_943734685.1_AcolN3_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:36 2024]
+Finished job 86.
+99 of 151 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:36 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-retro-notax.bed
+    output: results/GCF_943734685.1_AcolN3_genomic-retro.bed
+    jobid: 85
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-retro.bed; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:38 2024]
+Finished job 85.
+100 of 151 steps (66%) done
+Removing temporary output results/GCF_943734685.1_AcolN3_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:38 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-vdb.o6
+    jobid: 165
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:43 2024]
+Finished job 165.
+101 of 151 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:43 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-udb.o6, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-vdb.o6
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-notax.bed
+    jobid: 163
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-udb.o6, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:43 2024]
+Finished job 163.
+102 of 151 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:43 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-notax.bed
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro.bed
+    jobid: 162
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro.bed; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:46 2024]
+Finished job 162.
+103 of 151 steps (68%) done
+Removing temporary output results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:46 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-udb.o6, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-vdb.o6
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-notax.bed
+    jobid: 119
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-vdb.o6, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-udb.o6
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:46 2024]
+Finished job 119.
+104 of 151 steps (69%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:46 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-notax.bed
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro.bed
+    jobid: 118
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro.bed; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:29:48 2024]
+Finished job 118.
+105 of 151 steps (70%) done
+Removing temporary output results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:29:48 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-udb.o6
+    jobid: 153
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:40:15 2024]
+Finished job 153.
+106 of 151 steps (70%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:40:15 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    jobid: 77
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:40:19 2024]
+Finished job 77.
+107 of 151 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:40:19 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    jobid: 75
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-udb.o6, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-vdb.o6
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:40:19 2024]
+Finished job 75.
+108 of 151 steps (72%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:40:20 2024]
+localrule taxize_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    jobid: 74
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:40:22 2024]
+Finished job 74.
+109 of 151 steps (72%) done
+Removing temporary output results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:40:22 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-udb.o6
+    jobid: 43
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-udb.o6; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:08 2024]
+Finished job 43.
+110 of 151 steps (73%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:08 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-udb.o6, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-vdb.o6
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-notax.bed
+    jobid: 42
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-vdb.o6, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-udb.o6
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:08 2024]
+Finished job 42.
+111 of 151 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:08 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-notax.bed
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro.bed
+    jobid: 41
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro.bed; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:11 2024]
+Finished job 41.
+112 of 151 steps (74%) done
+Removing temporary output results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:11 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-udb.o6, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-vdb.o6
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-notax.bed
+    jobid: 152
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-vdb.o6, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-udb.o6
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:11 2024]
+Finished job 152.
+113 of 151 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:11 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-notax.bed
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro.bed
+    jobid: 151
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro.bed; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-notax.bed
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:13 2024]
+Finished job 151.
+114 of 151 steps (75%) done
+Removing temporary output results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:13 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-vdb.o6
+    jobid: 132
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:18 2024]
+Finished job 132.
+115 of 151 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:18 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-udb.o6, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-vdb.o6
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-notax.bed
+    jobid: 130
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-vdb.o6, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-udb.o6
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:18 2024]
+Finished job 130.
+116 of 151 steps (77%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:18 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-notax.bed
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro.bed
+    jobid: 129
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro.bed; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-notax.bed
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:20 2024]
+Finished job 129.
+117 of 151 steps (77%) done
+Removing temporary output results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:20 2024]
+localrule retrosearch_putatEVEs_vdb:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-vdb.o6
+    jobid: 11
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-vdb.o6; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:25 2024]
+Finished job 11.
+118 of 151 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:25 2024]
+localrule retrosearch_putatEVEs_merge:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-udb.o6, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-vdb.o6
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-notax.bed
+    jobid: 9
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-notax.bed; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-udb.o6, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-vdb.o6
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:26 2024]
+Finished job 9.
+119 of 151 steps (79%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:26 2024]
+localrule taxize_putatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-notax.bed
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro.bed
+    jobid: 8
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro.bed; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-notax.bed
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    threads: 40
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:28 2024]
+Finished job 8.
+120 of 151 steps (79%) done
+Removing temporary output results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro-notax.bed.
+Select jobs to execute...
+Execute 15 jobs...
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro.bed
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.pdf
+    jobid: 18
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.pdf; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-retro.bed
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro.bed
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.pdf
+    jobid: 40
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.pdf, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-retro.bed
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro.bed
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.pdf
+    jobid: 161
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.pdf; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-retro.bed
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro.bed
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.pdf
+    jobid: 62
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.pdf, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-retro.bed
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-retro.bed
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.pdf
+    jobid: 84
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.pdf; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-retro.bed
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-retro.bed
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.pdf
+    jobid: 106
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.pdf, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-retro.bed
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro.bed
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.pdf
+    jobid: 128
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.pdf, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-retro.bed
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro.bed
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.pdf
+    jobid: 150
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.pdf, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-retro.bed
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro.bed
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.pdf
+    jobid: 7
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.pdf, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-retro.bed
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro.bed
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.pdf
+    jobid: 29
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.pdf; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-retro.bed
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro.bed
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.pdf
+    jobid: 51
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.pdf, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-retro.bed
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.pdf
+    jobid: 73
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.pdf, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-retro.bed
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro.bed
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.pdf
+    jobid: 117
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.pdf; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-retro.bed
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro.bed
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.pdf
+    jobid: 95
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.pdf, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-retro.bed
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+
+[Mon Sep 23 17:51:28 2024]
+localrule validate_putatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro.bed
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.pdf
+    jobid: 139
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.pdf, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-retro.bed
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:32 2024]
+Finished job 18.
+121 of 151 steps (80%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:32 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    jobid: 12
+    reason: Missing output files: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734695.1_idAnoMacuDA_375_x_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:32 2024]
+Finished job 161.
+122 of 151 steps (81%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:32 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    jobid: 155
+    reason: Missing output files: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734635.1_idAnoCruzAS_RS32_06_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:32 2024]
+Error in rule extract_validatEVEs:
+    jobid: 12
+    input: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna, results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv
+    output: results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734695.1_idAnoMacuDA_375_x_genomic, ++$i)/e' > results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734695.1_idAnoMacuDA_375_x_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:32 2024]
+Error in rule extract_validatEVEs:
+    jobid: 155
+    input: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna, results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv
+    output: results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734635.1_idAnoCruzAS_RS32_06_genomic, ++$i)/e' > results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734635.1_idAnoCruzAS_RS32_06_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:32 2024]
+Finished job 128.
+123 of 151 steps (81%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:32 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    jobid: 122
+    reason: Missing output files: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:32 2024]
+Error in rule extract_validatEVEs:
+    jobid: 122
+    input: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna, results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv
+    output: results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic, ++$i)/e' > results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943735745.2_idAnoBellAS_SP24_06.2_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Finished job 150.
+124 of 151 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    jobid: 144
+    reason: Missing output files: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943737925.1_idAnoNiliSN_F5_01_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Finished job 40.
+125 of 151 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    jobid: 34
+    reason: Missing output files: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734745.1_idAnoDarlMG_H_01_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Finished job 29.
+126 of 151 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    jobid: 23
+    reason: Missing output files: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    wildcards: asm=GCA_963924065.2_idAnoArabHR-G3.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 144
+    input: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna, results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv
+    output: results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943737925.1_idAnoNiliSN_F5_01_genomic, ++$i)/e' > results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Sep 23 17:51:33 2024]
+Finished job 84.
+127 of 151 steps (84%) done
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943737925.1_idAnoNiliSN_F5_01_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 34
+    input: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna, results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734745.1_idAnoDarlMG_H_01_genomic, ++$i)/e' > results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    jobid: 78
+    reason: Missing output files: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv, results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734685.1_AcolN3_genomic
+    resources: tmpdir=/tmp
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734745.1_idAnoDarlMG_H_01_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 23
+    input: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna, results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv
+    output: results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCA_963924065.2_idAnoArabHR-G3.2_genomic, ++$i)/e' > results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCA_963924065.2_idAnoArabHR-G3.2_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 78
+    input: results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna, results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv
+    output: results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734685.1_AcolN3_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734685.1_AcolN3_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734685.1_AcolN3_genomic, ++$i)/e' > results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734685.1_AcolN3_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Finished job 117.
+128 of 151 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    jobid: 111
+    reason: Missing output files: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna
+    wildcards: asm=GCF_943734735.2_idAnoGambNW_F1_1_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Finished job 73.
+129 of 151 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna
+    jobid: 67
+    reason: Missing output files: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna
+    wildcards: asm=GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 111
+    input: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna, results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv
+    output: results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734735.2_idAnoGambNW_F1_1_genomic, ++$i)/e' > results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734735.2_idAnoGambNW_F1_1_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 67
+    input: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna, results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv
+    output: results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic, ++$i)/e' > results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCA_943734665.2_idAnoAquaMG_Q_19.2_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Finished job 62.
+130 of 151 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    jobid: 56
+    reason: Missing output files: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943734725.1_idAnoMarsDA_429_01_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 56
+    input: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna, results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv
+    output: results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734725.1_idAnoMarsDA_429_01_genomic, ++$i)/e' > results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734725.1_idAnoMarsDA_429_01_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Finished job 106.
+131 of 151 steps (87%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    jobid: 100
+    reason: Missing output files: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna; Input files updated by another job: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    wildcards: asm=GCA_964033645.1_idAnoFune21.1_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:33 2024]
+Error in rule extract_validatEVEs:
+    jobid: 100
+    input: results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna, results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv
+    output: results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCA_964033645.1_idAnoFune21.1_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCA_964033645.1_idAnoFune21.1_genomic, ++$i)/e' > results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCA_964033645.1_idAnoFune21.1_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:33 2024]
+Finished job 7.
+132 of 151 steps (87%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:33 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    jobid: 1
+    reason: Missing output files: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943734705.1_idAnoCousDA_361_x.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:34 2024]
+Error in rule extract_validatEVEs:
+    jobid: 1
+    input: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna, results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734705.1_idAnoCousDA_361_x.2_genomic, ++$i)/e' > results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734705.1_idAnoCousDA_361_x.2_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:34 2024]
+Finished job 139.
+133 of 151 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:34 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    jobid: 133
+    reason: Missing output files: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:34 2024]
+Error in rule extract_validatEVEs:
+    jobid: 133
+    input: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna, results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv
+    output: results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic, ++$i)/e' > results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734765.1_idAnoZiCoDA_A2_x.2_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:34 2024]
+Finished job 95.
+134 of 151 steps (89%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:34 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    jobid: 89
+    reason: Missing output files: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943734755.1_idAnoMoucSN_F20_07_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:34 2024]
+Finished job 51.
+135 of 151 steps (89%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Sep 23 17:51:34 2024]
+localrule extract_validatEVEs:
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    jobid: 45
+    reason: Missing output files: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna; Input files updated by another job: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    wildcards: asm=GCF_943734845.2_idAnoFuneDA-416_04_genomic
+    resources: tmpdir=/tmp
+
+[Mon Sep 23 17:51:34 2024]
+Error in rule extract_validatEVEs:
+    jobid: 89
+    input: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna, results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv
+    output: results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734755.1_idAnoMoucSN_F20_07_genomic, ++$i)/e' > results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734755.1_idAnoMoucSN_F20_07_genomic-validatEVEs.fna
+[Mon Sep 23 17:51:34 2024]
+Error in rule extract_validatEVEs:
+    jobid: 45
+    input: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna, results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv
+    output: results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+    shell:
+        cut -f6 results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.tsv | sed '1d' |  seqkit faidx results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-putatEVEs.fna --infile-list - -f | perl -pe 's/^>/sprintf(">%s_EVE%03d ", GCF_943734845.2_idAnoFuneDA-416_04_genomic, ++$i)/e' > results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job extract_validatEVEs since they might be corrupted:
+results/GCF_943734845.2_idAnoFuneDA-416_04_genomic-validatEVEs.fna
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-09-23T143824.704463.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

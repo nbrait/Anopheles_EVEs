@@ -1,0 +1,49 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                    1
+extract_putatEVEs                  1
+extract_validatEVEs                1
+mask_putatEVEs                     1
+masksearch_putatEVEs               1
+retrosearch_putatEVEs_merge        1
+retrosearch_putatEVEs_udb          1
+retrosearch_putatEVEs_vdb          1
+search_assemblies                  1
+taxize_putatEVEs                   1
+validate_putatEVEs                 1
+total                             12
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Sep  1 15:08:02 2024]
+localrule download_genome:
+    output: genomes/CALSDG02.fna, genomes/CALSDG02.htm
+    log: genomes/CALSDG02.log
+    jobid: 38
+    reason: Missing output files: genomes/CALSDG02.fna
+    wildcards: asm=CALSDG02
+    threads: 24
+    resources: tmpdir=/tmp
+
+[Sun Sep  1 15:08:03 2024]
+Error in rule download_genome:
+    jobid: 38
+    output: genomes/CALSDG02.fna, genomes/CALSDG02.htm
+    log: genomes/CALSDG02.log (check log file(s) for error details)
+    shell:
+        /media/nbrait/Data/EVE_PIPELINE/new_detectEVE/detectEVE/workflow/scripts/download-traces.sh CALSDG02 genomes/CALSDG02.htm > genomes/CALSDG02.fna 2> genomes/CALSDG02.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_genome since they might be corrupted:
+genomes/CALSDG02.fna, genomes/CALSDG02.htm
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-09-01T150802.525090.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

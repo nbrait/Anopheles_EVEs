@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count
+---------------------------  -------
+all                                1
+download_genome                   43
+extract_putatEVEs                 43
+extract_validatEVEs               45
+mask_putatEVEs                    44
+masksearch_putatEVEs              44
+retrosearch_putatEVEs_merge       45
+retrosearch_putatEVEs_udb         45
+retrosearch_putatEVEs_vdb         45
+search_assemblies                 43
+taxize_putatEVEs                  45
+validate_putatEVEs                45
+total                            488
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Jul 30 11:34:05 2024]
+localrule retrosearch_putatEVEs_udb:
+    input: results/CAWUOS01-putatEVEs.fna
+    output: results/CAWUOS01-retro-udb.o6
+    jobid: 648
+    reason: Missing output files: results/CAWUOS01-retro-udb.o6
+    wildcards: asm=CAWUOS01
+    threads: 40
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
